@@ -32,3 +32,6 @@ prose:
 jumbotron_color: "#05C6B4"
 jumbotron_background_image: "header.svg"
 jumbotron_image: "box-icon.png"
+
+# Disqus Comments
+disqus_short_name: planificacionesparaarmar
