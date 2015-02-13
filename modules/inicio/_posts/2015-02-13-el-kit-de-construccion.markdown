@@ -3,16 +3,10 @@ title: Kit de construcción
 published: true
 ---
 
-
-# ¡Armando la planificación! Ideas + unos bits técnicos
-
+## Ensamblar del kit de construcción
 
 ¡Durante esta etapa aprenderán las partes técnicas y teóricas a traves de la construcción de sus propias planificaciones en línea!
 
-![Aplausos]({{site.baseurl}}/img/aplausos.gif)
-
-
-## Ensamblado del kit de construcción
 
 Van a construir sus propias planificaciones en GitHub. Github es una plataforma de desarrollo colaborativo de software que permite el alojamiento de proyectos, código y documentación usando el sistema de control de versiones Git y además nos permite crear y mantener páginas web.
 Un repositorio es un lugar donde alojar datos, que posibilita adminstrar nuestro código (a partir de ahora todo es código, el contenido de las planificaciones como la estructura misma de las páginas), y ver las revisones y modificaciones que le hacemos a través de una interfaz web bonita y sencilla de usar.
@@ -22,15 +16,26 @@ Entonces, forkear es copiar el repositorio de un usaurio en la cuenta de otro us
 
 Sus planificaciones viviran en Github (así que no habrá que preocuparse del hosting) y harán todo el proceso de construcción y escritura ahí, al mismo timpo podrán ver las modificaciones en su propia página web.
 
+
+Ahora sí, arrancamos:
+
+1. <a class="btn btn-primary" href="https://github.com/acercadelaeducacion/planificaciones-para-armar/fork" target="_blank"><i class="fa fa-code-fork"></i> Forkeen este repositorio en GitHub.</a></li> El primer paso para tener la estructura de la planificación es ir a forkear el repositorio. Si todavía no saben bien qué es un repositorio o cómo funciona, echen un vistazo al <a href="https://help.github.com/articles/github-glossary" >glosario de GitHub</a> ojo, está en inglés. también pueden chequear <a href="http://www.yagoperez.com/un_poco_de_git_y_de_github%E2%80%8E/">otro glosario de Git + Github</a> que está en castellano. 
+2. Then, in the repository interface, find the file called <a class="btn btn-primary" href="https://github.com/p2pu/course-in-a-box/edit/gh-pages/_data/course.yml" target="_blank"><i class="fa fa-edit"></i> Edit _data/course.yml</a> and add your name, profile image and Twitter handle.
+3. Submit a pull request to get your changes merged into the main version of the course and have your mug show up in the gallery on the front page! Not sure how to submit a pull request? See the <a href="{{site.baseurl}}{% post_url 2000-01-02-github-cheatsheet %}">GitHub Cheatsheet</a>.
+4. <a class="btn btn-primary" target="_blank" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fhowto.p2pu.org&text=Create%20engaged%20learning%20communities%20that%20lasts&hashtags=courseinabox&via=p2pu&related=p2pu"><i class="fa fa-twitter"></i> Send a tweet</a> and spread the word about Course in a Box! (Not actually a required step, promise).
+5. <a class="btn btn-primary" target="_blank" href="http://community.p2pu.org/t/please-introduce-yourself/28"><i class="fa fa-weixin"></i> Introduce yourself</a> to the P2PU community. Tell us something about yourself and what you want to use Course in a Box for.
+
+
+
+## Pasos para armar su propio curso
+
+
+
 Si todavía no está claro qué es un repositorio, o cómo funciona echenle un vistazo a:
 
 - <a href="http://www.yagoperez.com/un_poco_de_git_y_de_github%E2%80%8E/">Glosario de Git + Github</a>
 - <a href="https://help.github.com/articles/github-glossary" >Glosario de GitHub</a> En inglés.
 - <a href="http://aprendegit.com/fork-de-repositorios-para-que-sirve/">Qué es un fork</a>
-
-Ahora sí ¡A trabajar!
-
-## Pasos para armar su propio curso
 
 ### Forkear este curso
 Este kit está construido usando las [Páginas de GitHub](https://pages.github.com/), para hacer una copia de este curso, necesitan *forkear*, hacer una copia o bifurcación del repositorio en GitHub.

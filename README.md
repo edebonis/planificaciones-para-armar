@@ -1,10 +1,10 @@
-# Everything you need to create an online course in a box
+# Todo lo que necesitas para tener la planificación en línea
 
 
-## How do I get started?
+## ¿Cómo empiezo?
 
-Head on over to [howto.p2pu.org](http://howto.p2pu.org). Everything you need to know is over there and once you are done we'll be waiting for you here!
+Chequeá [http://acercadelaeducacion.github.io/planificaciones-para-armar/](http://acercadelaeducacion.github.io/planificaciones-para-armar/). Todo lo que necesitás saber está ahí.
  
 ---
 
-This course was created using the [Jekyll Course template from P2PU](http://github.com/p2pu/jekyll-course-template).
+Este proyecto fue cread usando [Course in a box](http://howto.p2pu.org/) y [Jekyll Course template from P2PU](http://github.com/p2pu/jekyll-course-template).
