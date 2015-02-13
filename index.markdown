@@ -3,31 +3,38 @@ layout: index
 published: true
 ---
 
-## Create a Learning Community that Lasts
+## Crear una planificación que vincule una comunidad de aprendizaje duradera
 
-Online courses often feel large, intimidating and anonymous. It's hard to feel invested
-in multiple choice quizzes, textbook chapters and hum-drum Q &amp; A forums where you
-don't know anyone.
+Las planificaciones pueden ser papeles de rutina o espacios de producción de ideas.
+Como los bocetos de los artistas o los croquis de los arquitectos, plasman en palabras
+e imágenes la mirada y la intención del docente.
+Sabemos por múltiples epriencias que la construcción de conocimiento no es una tarea
+solitaria, inspirados en la idea de que mas miradas pueden contribuir a mejores ideas
+creamos este espacio para publicar, distribuir y construir juntos conocimiento sobre
+las prácticas educativas que llevamos adelante.
 
-In a stellar learning experience, you'd know who was in the room and feel super-comfy.
-You'd make projects together and find help when you get stuck. You'd want to send people
-thank-you cards and chicken soup.
+La propuestas es compartir planificaciones. Como elementos que pueden ser ramificados,
+remixados y mejorados. Y construirnos como comunidad de práctica. Como profesinales de
+la educación capaces de construir reflexiones y teorías.
+Les proponemos tomar este espacio como un primer modelo a partir del cual podamos elaborar
+particualres formas de producir y publicar.
 
-We know designing a creative, participatory community can be tricky. We're here to help
-you craft assignments that rule, build an audience and support you along the way. You'll
-even learn a few technical skills in the process. Don't worry, 1s and 0s wash off
-pretty easily.
-		
-## OK, but who are you guys?
+Este es un sitio web, construido a partir de una inicitiavia de la P2PU, es probable que
+te sea necesario desarrollar algunos saberes tecnológicos nuevos. El desafío está puesto
+en usar las herramientas que reflejen el modelo de construcción abierto, colaborativo y dialógico.
 
-We're [Peer 2 Peer University](http://p2pu.org)--we build learning communities
-on the web. In the last 5 years, we put together courses like 
+
+## Muy bien, pero ¿Quiénes somos nosotros?
+
+[Alvar Maciel](http://acercadelaeducacion.com.ar)--Docente, técnico e inquieto. 
+[Peer 2 Peer University](http://p2pu.org)--ellos construyen comunidades de aprendizaje
+en la web. En los últimos 5 años levantaron cursos como 
 [Play With Your Music](http://www.playwithyourmusic.org/),
-[Learning Creative Learning](http://learn.media.mit.edu/lcl/), the
-[Deeper Learning MOOC](http://dlmooc.deeper-learning.org/), and
+[Learning Creative Learning](http://learn.media.mit.edu/lcl/), el
+[Deeper Learning MOOC](http://dlmooc.deeper-learning.org/), y
 [A Gentle Intro to Python](http://mechanicalmooc.org/). 
-Also, we're a non-profit and a distributed team (so we use the tools we recommend).
+Son también un equipo sin fines de lucro altamente distribuido (y usan las herramientas que recomiendan).
 
 			
-## I'm in--how do I get started?
-Head over [here]({{site.baseurl}}/modules/start/about-this-course/) to create your own course!
+## Entonces...¿Por dónde empezar?
+¡Echen un vistazo [acá]({{site.baseurl}}/modules/start/about-this-course/) para crear su própia planificación!
