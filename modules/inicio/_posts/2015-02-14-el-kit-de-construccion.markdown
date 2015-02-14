@@ -5,7 +5,7 @@ published: true
 
 ## Ensamblar del kit de construcción
 
-¡Durante esta etapa aprenderán las partes técnicas y teóricas a traves de la construcción de sus propias planificaciones en línea!
+¡Durante esta etapa van a aprender las algunos asuntos técnicos y teóricos mientras construyen sus propias planificaciones en línea!
 
 
 Van a construir sus propias planificaciones en GitHub. Github es una plataforma de desarrollo colaborativo de software que permite el alojamiento de proyectos, código y documentación usando el sistema de control de versiones Git y además nos permite crear y mantener páginas web.
@@ -27,38 +27,36 @@ Ahora sí, arrancamos:
 5. <a class="btn btn-primary" target="_blank" href="http://community.p2pu.org/t/please-introduce-yourself/28"><i class="fa fa-weixin"></i> presentense</a> en la comunidad de P2PU. Cuenten algo sobre ustedes y para que quieren usar las planificaciones para armar.
 
 Cuando les pedimos que forkeen este sitio, lo que hicieron fue hacer una copia del mismo y ¡ya comenzaron a construir el de ustedes!
-
-This copy is where you will be working during the course. Some of the technical things may be challenging or frustrating, but by tackling it bit by bit and asking your peers for help, you’ll soon be an expert and helping other people!
+Esta copia es sobre la cual trabajará. algunas de las cuestiones técnicas pueden resultar desafiantes o incluso frustrantes. Pero yendo paso a paso y animandose a consultar y pedir ayuda al grupo de pares que está involucrado en este proyecto hará que en breve sean expertos y puedan estar ayudando a otras personas.
 
 <div id="ghUsername-intro">
-Below we will be doing some proper work on GitHub. We hope you won't mind telling us your username, so we can prepare some links and make things much easier for you. Don't worry, we are not storing any information about you on our servers. If you have JavaScript disabled for some reason, you will need to replace 'your-github-username' with your GitHub username where you see links containing 'your-github-username'
+A continuación vamos a hacer algunas tareas propias de GitHub. Esperamos que no les importe decirnos su nombre de usuario, así podemos preparar algunos links y hacerles las cosas mucho más sencillas. No s epreocupen, no se guarda ninguna información sobre ustedes en los servidores. Si tienen deshabilitado JavaScript por algún motivo, tendrán que remplazar 'your-github-username' con su nombre de usuario de GitHib cada vez que vean links que digan 'your-github-username'
 </div>
 
-[your-github-username](https://github.com/your-github-username-set/course-in-a-box/)
+[your-github-username](https://github.com/your-github-username-set/planificaciones-para-armar/)
 
-### Tweak a few items.
-There are two updates that you need to make to your course to get it working. First, change
+### Retocar algunas partes.
+Hay dos actualizciones que necesitan hacer a su nuevo sitio para que empiece a funcionar. Primero cambien
 
 {% highlight yaml %}baseurl:{% endhighlight %}
 
-to
+a
 
-{% highlight yaml %}baseurl: /course-in-a-box{% endhighlight %}
+{% highlight yaml %}baseurl: /planificaciones-para armar{% endhighlight %}
 
-in the file [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_config.yml](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_config.yml)
+en este archivo [https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/_config.yml](https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/_config.yml)
 
-Next, delete the file called CNAME [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/CNAME)
+Luego, borrar un archivo llamado CNAME [https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/CNAME](https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/CNAME)
 
-Now that you have a space to work, lets put a draft framework in place for your course.
+Ahora que tienen un espacio para trabajo, pongamos una estructura borrador a punto para la planificación.
 
-### Give your course a name.
-To update the title of your course, go to [https://github.com/your-github-username/course-in-a-box/blog/gh-pages/_data/course.yml](https://github.com/your-github-username/course-in-a-box/edit/gh-pages/_data/course.yml) and edit the file called `_data/course.yml`. You will see the title for this course there, change that to the name you decided on. Don't worry too much if you don't have the perfect name, you now know how to change the title for your course and you can update it at any time!
+### Poner un nombre a si plataforma.
+Para coambiar el título de sus plataforma, vayan a [https://github.com/your-github-username/planificaciones-para-armar/blog/gh-pages/_data/course.yml](https://github.com/your-github-username/planificaciones-para-armar/edit/gh-pages/_data/course.yml) y editen el archivo llamado `_data/course.yml`. Verán ahí el título de esta plataforma, cambiennlo al nombre que prefieran. No se preocupen si no tienen el nombre perfecto, ahora saben dónde y cómo cambiarlo y pueden hacerlo ¡Todas las veces que quieran!
 
-{% highlight yaml %}title: "Course Title"{% endhighlight %}
+{% highlight yaml %}title: "Tiítulo de la plataforma"{% endhighlight %}
 
-### Who is the course for & what will they learn?
-Will they be building something during the course. Put this basic information on the front page of the course to give a short overview of what to expect. To update the info on the front page, go to the file [https://github.com/your-github-username/course-in-a-box/blob/gh-pages/index.markdown](https://github.com/your-github-username/course-in-a-box/blob/gh-pages/index.markdown) and replace the text currently there to reflect what your course will be about. Once again, you can update it at any time and we will come back to this at a later stage.
+### ¿De quién es la plataforma y qué harán en ella?
+¿Es de una Institución? ¿de uno o varios docentes?. Pongan la información básica en la página principal de la plataforma para que haya un breve resumen del sitio. Para modificar la información en la página principal, vayan a la página [https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/index.markdown](https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/index.markdown) y remplacen el texto que está ahí de manera que refleje de sus expectativas. De nuevo, sepan que pueden modificar este texto en cualquier momento, de todas maneras, volveremos a esto más adelante.
+### ¡Echemos un vistazo al sitio!
 
-### Lets have a look at your course!
-
-You can view it by going to [https://your-github-username.github.io/course-in-a-box/](https://your-github-username.github.io/course-in-a-box/).
+Pueden ver como va quedando en  [https://your-github-username.github.io/planificaciones-para-armar/](https://your-github-username.github.io/planificaciones-para-armar/).
