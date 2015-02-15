@@ -1,29 +1,11 @@
-This folder is where you should put the content for your course. Every module in your course should have a subfolder inside this folder, eg. `learning`.
+Esta carpeta es donde ponemos el contenido de la planificación. Cada módulo de la plataforma tiene que tener un subdirectorio aquí. Ej: `fundamentación`
 
-Inside every module folder, you should create a special folder called `_posts`, eg. `learning/_posts`. Inside the folder called `_posts`, you should create a file for every section in the module. The name of the file should start with the date in the format `YYYY-MM-DD-sectionname.md`. The date determines the order of the sections in your module.
+Dentro de cada subdirectorio, hay que crear un subdirectorio espacial llamado `_post`, ej. `fundamentacion/_posts`. Dentro de la carperta `_posts`, tienen que crear un archivo para cada seccción del módulo. El nombre de estos archivos tienen que empezar con una fecha, en el formato año-mes-día: `YYYY-MM-DD-nombredelasección.md`. La fecha determina el orden de las secciones en su módulo.
 
-An example of the file layout for this course:
+Un ejemplo del diseño de este sitio:
 
 ```
-modules/community/_posts/2000-01-01-concepts.markdown
-modules/community/_posts/2000-01-02-projects.markdown
-modules/community/_posts/2000-01-03-resources.markdown
-modules/community/_posts/2000-01-04-tools.markdown
-modules/community/_posts/2000-01-05-reflect.markdown
-modules/start/_posts/2000-01-01-about-this-course.markdown
-modules/learning/_posts/2000-01-01-concepts.markdown
-modules/learning/_posts/2000-01-02-projects.markdown
-modules/learning/_posts/2000-01-03-resources.markdown
-modules/references/_posts/2000-01-01-introduction.markdown
-modules/references/_posts/2000-01-02-github-cheatsheet.markdown
-modules/references/_posts/2000-01-02-markdown-cheatsheet.markdown
-modules/references/_posts/2000-01-03-glossary.markdown
-modules/references/_posts/2000-01-04-course-template.markdown
-modules/references/_posts/2000-01-05-resources.markdown
-modules/feedback/_posts/2000-01-01-concepts.markdown
-modules/feedback/_posts/2000-01-02-projects.markdown
-modules/feedback/_posts/2000-01-03-resources.markdown
-modules/content/_posts/2000-01-01-concepts.markdown
-modules/content/_posts/2000-01-02-projects.markdown
-modules/content/_posts/2000-01-03-resources.markdown
+modules/inicio/_posts/2015-02-12-propuesta-y-objetivos.markdown
+modules/inicio/_posts/2015-02-13-formato-basico.markdown
+modules/inicio/_posts/2015-02-14-el-kit-de-construccion.markdown
 ```
