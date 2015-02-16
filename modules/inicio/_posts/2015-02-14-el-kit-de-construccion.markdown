@@ -1,11 +1,13 @@
 ---
-title: Kit de construcción
+title: Puesta a punto
 published: true
 ---
 
 ## Ensamblar del kit de construcción
 
-¡Durante esta etapa van a aprender las algunos asuntos técnicos y teóricos mientras construyen sus propias planificaciones en línea!
+¡Durante esta etapa van a aprender  algunas cuestiones técnicas y teóricas mientras construyen sus propios sitios con sus planes y proyectos educativos!
+
+![Imagen del proceso del proyecto]({{site.baseurl}}/img/process.png)
 
 
 Van a construir sus propias planificaciones en GitHub. Github es una plataforma de desarrollo colaborativo de software que permite el alojamiento de proyectos, código y documentación usando el sistema de control de versiones Git y además nos permite crear y mantener páginas web.

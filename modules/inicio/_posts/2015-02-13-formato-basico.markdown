@@ -1,5 +1,5 @@
 ---
-title: Fromato básico
+title: Estructura
 ---
 
 ## Muchas formas = mucho aprendizaje

@@ -10,7 +10,7 @@
 	<meta charset="utf-8">
 	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
 
-	<title>Planificaciones para armar | Propuesta y objetivos</title>
+	<title>Planificaciones para armar | Generación  de contenido</title>
   <meta name="description" content="Kit para construir tu planificación en la web.">
   <meta name="author" content="">
 
@@ -160,7 +160,7 @@
 	
 	<ul>
 		
-			<li class="active first ">
+			<li class=" first ">
 				<a
 						href="/planificaciones-para-armar/modules/inicio/propuesta-y-objetivos/">
 					Propuesta y objetivos
@@ -181,7 +181,7 @@
 				</a>
 			</li>
 		
-			<li class="  last">
+			<li class="active  last">
 				<a
 						href="/planificaciones-para-armar/modules/inicio/crear-y-modificar/">
 					Generación  de contenido
@@ -204,46 +204,28 @@
 		<div class="col-md-8 col-md-offset-1">
 			<div class="row">
 				<div class="content col-lg-12">
-					<h2>¿Para qué sirve esto?</h2>
+					<h2>¡Hagámos algunos módulos!</h2>
 
-<p><img src="/planificaciones-para-armar/img/inicioStorm.jpg" alt="empezando"></p>
+<p>¡Ahora es momento de empezar a construir su sitio!</p>
 
-<p>Imagen <a href="https://creativecommons.org/licenses/by-nd/2.0/">CC-BY-ND 2.0</a> de <a href="https://www.flickr.com/photos/lens-cap/15853661887">Jim Bauer</a> en <a href="https://flickr.com">Flickr</a></p>
+<ol>
+<li>En sus repositorios en GitHub, creen un directorio para cada módulo dentro de la carpeta <code>modules</code>. El nombre de la carpeta se reflejará en la dirección de sus sitios. Si se fijan en la dirección de este sitio, verán que la primer parte de la URL es &#39;modules/inicio&#39; ese es también el nombre <a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/tree/gh-pages/modules/inicio/">de la carpeta en el repositorio en GitHub</a>.</li>
+<li>Dentro de cada carpeta que creen, creen otra carpeta con el nombre <code>_posts</code>. Esta será la carpeta que contendrá el contenido de su sitio. Cada módulo puede tener multiples secciones.</li>
+<li></li>
+<li>Create a new file called <code>2000-01-01-projects.md</code> inside the <code>_posts</code> folder for the module you just created. The date part determines the order of the sections in the module. For instance, you can see all the sections for the learning module <a href="https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/_posts">here</a>.</li>
+</ol>
 
-<p>Este proyecto está orientado a educadores e intituciones educativass de cualquier tipo o nivel. Sus objetivos son:</p>
+<p>If you don&#39;t want to create all the folders yourself, rename or copy one of the folders that are already there (start, community, learning, content) and update the sections appropriately.</p>
 
-<ul>
-<li>Distribuir y compartir planes de enseñanza, planificiaciones y proyectos educativos.</li>
-<li>Brindar una platafroma que permita diseñar dichos planes desde cero o a partir de otros los planes y proyectos compartidos.</li>
-<li>Reflejar en la Web parte del currículo educativo.</li>
-<li>Evidenciar las reflexiones y modificaciones de los planes a partir de la práctica educativa.</li>
-<li>Construir y participar de comunidad de profesionales de la educación.</li>
-</ul>
+<p>For modules to show up in the top navigation, you need to update the list modules in <a href="https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_data/course.yml">https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_data/course.yml</a>.</p>
 
-<h2>¿Cómo y qué contiene este sitio?</h2>
+<p>Update the list of modules to reflect the modules for your course:</p>
 
-<p>Proponemos que cada educador, o institución educativa, cuente con un dispositivo autónomo que permita aprender algunas cuestiones técnicas en el en el proceso de hacer y compartir planes, experiencias y reflexones.
-Este dispositivo es tanto una plataforma para escribir los planes de enseñanza, como un curso para aprender a usar herramientas para el desarrollo de páginas livianas y producción colaborativa. Usando las mismas herramientas que los desarrollaores utilizan.</p>
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">modules</span><span class="p-Indicator">:</span> <span class="p-Indicator">[</span><span class="nv">start</span><span class="p-Indicator">,</span> <span class="nv">community</span><span class="p-Indicator">,</span> <span class="nv">learning</span><span class="p-Indicator">,</span> <span class="nv">content</span><span class="p-Indicator">,</span> <span class="nv">feedback</span><span class="p-Indicator">,</span> <span class="nv">references</span><span class="p-Indicator">]</span></code></pre></div>
 
-<p>Esta es una plataforma que contiene:</p>
+<p>The video below shows all the steps for adding a module called &#39;variables&#39; to a course.</p>
 
-<ul>
-<li>La secuencia, instrucciones o pasos para reproducirla. A modo de curso autocontenido.</li>
-<li>Una estructura básica para empezar a escribir las planificaciones y proyectos.</li>
-<li>Un punto de conexión con pares que participan del mismo proceso de aprendizaje y reflexión educativa.</li>
-</ul>
-
-<p>Será luego cuestion de cada participante tomar una o varias de las vertientes de la propuesta.</p>
-
-<h2>Bueno, ¿Cómo empiezo a armar mi plataforma?</h2>
-
-<p>Les recomendamos que comiencen revisando cómo está organizada la plataforma <a href="/modules/inicio/formato-basico/">haciendo click acá</a>.</p>
-
-<p>O bien pueden ir directamente a las instrucciones para construir la plataforma <a href="/planificaciones-para-armar/modules/inicio/el-kit-de-construccion/">haciendo click acá.</a></p>
-
-<p><img src="/planificaciones-para-armar/img/start.jpg" alt="Image of maze with starting point indicated"></p>
-
-<p>Image <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a> de <a href="https://www.flickr.com/photos/mikecogh/11300349426">mikecogh</a> en <a href="https://flickr.com">Flickr</a>.</p>
+<p><video src="/planificaciones-para-armar/img/add-module.webm" width="640" height="360" controls></video></p>
 
 					
 
@@ -251,18 +233,18 @@ Este dispositivo es tanto una plataforma para escribir los planes de enseñanza,
 
 
   
+  
+
+  
+  
+
+  
+  
+
+  
+    
+      
     
-  
-  
-
-  
-    
-  
-  
-
-  
-  
-
   
   
 
@@ -271,14 +253,14 @@ Este dispositivo es tanto una plataforma para escribir los planes de enseñanza,
 						<hr />
 					
 					
-					
-						<div class="pagination-section pull-right">
+						<div class="pagination-section pull-left">
 							<div class="title">
-								Siguiente sección:
+								Sección previa:
 							</div>
-							<a rel="next" class="next" href="/planificaciones-para-armar/modules/inicio/formato-basico/"> Estructura
-							</a>
+							<a rel="prev" class="prev" href="/planificaciones-para-armar/modules/inicio/el-kit-de-construccion/">
+								Puesta a punto </a>
 						</div>
+					
 					
 				</div>
 			</div>
