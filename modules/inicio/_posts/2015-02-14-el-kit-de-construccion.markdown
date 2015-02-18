@@ -5,24 +5,57 @@ published: true
 
 ## Ensamblar del kit de construcción
 
-¡Durante esta etapa van a aprender  algunas cuestiones técnicas y teóricas mientras construyen sus propios sitios con sus planes y proyectos educativos!
+Durante esta etapa van a aprender algunas cuestiones técnicas y
+teóricas mientras construyen sus propios sitios con sus planes y
+proyectos educativos
 
 ![Imagen del proceso del proyecto]({{site.baseurl}}/img/process.png)
 
 
-Van a construir sus propias planificaciones en GitHub. Github es una plataforma de desarrollo colaborativo de software que permite el alojamiento de proyectos, código y documentación usando el sistema de control de versiones Git y además nos permite crear y mantener páginas web.
-Un repositorio es un lugar donde alojar datos, que posibilita adminstrar nuestro código (a partir de ahora todo es código, el contenido de las planificaciones como la estructura misma de las páginas), y ver las revisones y modificaciones que le hacemos a través de una interfaz web bonita y sencilla de usar.
+Los planes de enseñanza y el sitio viven en
+[GitHub](http://github.com). Github es una plataforma de desarrollo
+colaborativo de software que permite el alojamiento de proyectos,
+código y documentación usando el sistema de control de versiones Git y
+además nos permite crear y mantener páginas web. Un repositorio es un
+lugar donde alojar datos que posibilita administrar nuestro código (a
+partir de ahora todo es código, el contenido de las planificaciones
+como la estructura misma de las páginas), y ver las revisones y
+modificaciones que se hacemos a través de una interfaz web bonita y
+sencilla de usar.
 
-La funcionalidad estrella de Github es el "forkeo" esta palabra castellanizada proviene del inglés "forking" que vendría a ser "ramificar". Algunos términos quedarán en inglés, otros seran "castellanizados". Pero en cualquier caso se van a ir aclarando en el proceso.
-Entonces, forkear es copiar el repositorio de un usaurio en la cuenta de otro usuario. Esto es lo que harán con este mismo repositorio de contenido. Al forkear este repositorio estarán copiando la Planificación Para Armar de nuestro repositorio, y lo modificarán en su propia cuenta para luego publicarlo con su propia dirección web.
+La funcionalidad estrella de Github es el "fork" esta palabra proviene
+del inglés "forking" que vendría a ser "ramificar". Algunos términos
+quedarán en inglés, otros seran "castellanizados". Pero en cualquier
+caso se van a ir aclarando en el proceso. Entonces, forkear es copiar
+el repositorio de un usuario en la cuenta de otro usuario. Esto es lo
+que harán con el repositorio de este proyecto. Al forkear este
+repositorio estarán copiando la Planificación Para Armar de nuestro
+repositorio, y lo modificarán en su propia cuenta para luego
+publicarlo con su propia dirección web.
 
-Sus planificaciones viviran en Github (así que no habrá que preocuparse del hosting) y harán todo el proceso de construcción y escritura ahí, al mismo timpo podrán ver las modificaciones en su propia página web.
+Sus planificaciones viviran en Github (así que no habrá que
+preocuparse del hosting) y harán todo el proceso de construcción y
+escritura ahí, al mismo timpo podrán ver las modificaciones en su
+propia página web.
 
-Si no están registrados en GitHub van a tener que crearse una cuenta para poder comenzar.  <a class="btn btn-primary" href="https://github.com/join" target="_blank"><i class="fa fa-code-fork"></i>Crear una cuenta en GitHub</a>
+Si no están registrados en GitHub van a tener que crearse una cuenta
+para poder comenzar.  <a class="btn btn-primary"
+href="https://github.com/join" target="_blank"><i class="fa
+fa-code-fork"></i>Crear una cuenta en GitHub</a>
 
 Ahora sí, arrancamos:
 
-1. <a class="btn btn-primary" href="https://github.com/acercadelaeducacion/planificaciones-para-armar/fork" target="_blank"><i class="fa fa-code-fork"></i> Forkeen este repositorio en GitHub.</a></li> El primer paso para tener la estructura de la planificación es ir a forkear el repositorio. Si todavía no saben bien qué es un repositorio o cómo funciona, echen un vistazo al <a href="https://help.github.com/articles/github-glossary" >glosario de GitHub</a> ojo, está en inglés. también pueden chequear <a href="http://www.yagoperez.com/un_poco_de_git_y_de_github%E2%80%8E/">otro glosario de Git + Github</a> que está en castellano. 
+1. <a class="btn btn-primary"
+   href="https://github.com/acercadelaeducacion/planificaciones-para-armar/fork"
+   target="_blank"><i class="fa fa-code-fork"></i> Forkeen este
+   repositorio en GitHub.</a></li> El primer paso para tener la
+   estructura de la planificación es ir a forkear el repositorio. Si
+   todavía no saben bien qué es un repositorio o cómo funciona, echen
+   un vistazo al <a
+   href="https://help.github.com/articles/github-glossary" >glosario
+   de GitHub</a> ojo, está en inglés. también pueden chequear <a
+   href="http://www.yagoperez.com/un_poco_de_git_y_de_github%E2%80%8E/">otro
+   glosario de Git + Github</a> que está en castellano.
 2. Luego, en la interface del repositorio, busquen el archivo llamado <a class="btn btn-primary" href="https://github.com/acercadelaeducacion/planificaciones-para-armar/edit/gh-pages/_data/course.yml" target="_blank"><i class="fa fa-edit"></i>_data/course.yml y edítenlo</a> agregando su nombre, imgen de perfil y su usuario de Twitter.
 3. Hagan un **pull request** para que los cambios se agreguen a la versión principal del curso y aparezca su imagen en la galería de la primer página. Si no están muy segurxs de como hacer un **pull request** vean el <a href="{{site.baseurl}}{% post_url 2000-01-02-github-cheatsheet %}">Machete de GitHub</a>.
 4. <a class="btn btn-primary" target="_blank" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fhowto.p2pu.org&text=Crear%20planificaciones%20online%20y%20participar%20de%20comunidades%20de%20Prácticas&hashtags=planificacionesparaarmar&via=p2pu&related=p2pu&via=amaciel&related=amaciel"><i class="fa fa-twitter"></i> Manden un tweet</a> y corran la voz sobre planificaciones para armar! (No es un paso obligatorio, :D  pero ayuda).

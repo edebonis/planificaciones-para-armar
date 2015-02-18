@@ -19,8 +19,14 @@ Este proyecto está orientado a educadores e intituciones educativass de cualqui
 
 ## ¿Cómo y qué contiene este sitio?
 
-Proponemos que cada educador, o institución educativa, cuente con un dispositivo autónomo que permita aprender algunas cuestiones técnicas en el en el proceso de hacer y compartir planes, experiencias y reflexones.
-Este dispositivo es tanto una plataforma para escribir los planes de enseñanza, como un curso para aprender a usar herramientas para el desarrollo de páginas livianas y producción colaborativa. Usando las mismas herramientas que los desarrollaores utilizan.
+Proponemos que cada educador, o institución educativa, cuente con un
+dispositivo autónomo de publicación de sus planes de enseñanza y que
+que el dispositivo mismo sea una plataforma que permita aprender
+algunas cuestiones técnicas en el en el proceso de hacer y compartir
+planes, experiencias y reflexiones. Este dispositivo es, tanto una
+plataforma para escribir los planes de enseñanza, como un curso para
+aprender a usar herramientas para el desarrollo de páginas livianas y
+de producción colaborativa.
 
 Esta es una plataforma que contiene:
 
