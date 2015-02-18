@@ -1,0 +1,11 @@
+---
+titles: Notas
+---
+
+## Diario de ruta
+
+![notas]({{site.baseurl}}/img/notas.jpg)
+
+Imagen [(CC BY-NC-SA 2.0)](https://creativecommons.org/licenses/by-nc-sa/2.0/) de [Neal Dench](https://www.flickr.com/photos/ndench/8781613/in/photolist-M1t8-4FPtFh-33F3T9-iWE7E-AfbhN-fEQaH-Acet-zzk6j-qCgAv-61DL5X-hcADL-6faJDC-4QcnBP-6612U-93TvY-LZXgZ-2kgmc-4K2Rnm-4gF8GS-3zXonG-4Nz93d-8bZB88-7cWPV1-4ixzhB-7eEdY-fmiEjY-4Hf5WL-gcduV-49ey9m-h3Bdo-5XtCNN-JK5AM-PeLD9-65ZYL-4GkLEF-BxcHh-4ixzzk-27QPQ-8KeGE-yX2nP-9jx3n-qChiY-59FAvp-Ct7Az-4xFyKz-7nSvbN-6g8ePT-JgmSQ-dGstiM-gzgB) en [flickr](http://fickr.com)
+
+Este espacio está destinado a escribir el diario de ruta de los proyectos y secuencias, a partir de estas notas se actualizarán el resto de las secciones.

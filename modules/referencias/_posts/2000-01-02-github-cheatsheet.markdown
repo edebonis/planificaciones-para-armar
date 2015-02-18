@@ -1,58 +1,60 @@
 ---
-title: GitHub Cheatsheet
+title: Machete para GitHub
 ---
 
-# Github cheatsheet
+# Machete para Github
 
-This cheatsheet explains how to do various things in GitHub. If you're looking for explanations of what some of the terms we use mean, have a look at the [GitHub Glossary](https://help.github.com/articles/github-glossary) 
+Este machete explica como hacer varias cosas en GitHub. Si están bucando explicaciones sobre algunos de los términos que usamos, chequeen [este glosario](http://www.yagoperez.com/un_poco_de_git_y_de_github%E2%80%8E/)
 
-## How to fork a repository
-To fork a repository, go to the repository you would like to fork.  Ex. "https://github.com/yourusername/repositoryname/"
+## Cómo forkear un repositorio
 
-Click "Fork" at the top right of the page.  That's it!  You will now have your own copy of the repository.
+Para forkear un repositorio, vayan al repositorio que quieren forkear ej. "https://github.com/nombredeusaruio/nombredelrepo/"
+
+Hagan click en "Fork" en la parte superior derecha de la página. ¡Eso es todo! Ahora tienen su propia copia del repositorio.
 
 ![]({{site.baseurl}}/img/tools/github-fork-step-1.png)
 
-## How to submit a pull request
+## Cómo enviar un pull request
 
-To submit a pull request, go to a repository that you forked. Ex. "https://github.com/yourusername/repositoryname/"
+Para enviar un pull request, vayan a algún repositorio que hayan forkeado. P. ej. "https://github.com/tunombredeusuario/nombredelrepositorio/"
 
-Select the "Pull Requests" tab.
+Seleccionen la etiqueta "Pull Requests".
 
 ![]({{site.baseurl}}/img/tools/github-pull-request-step-1-small.png)
 
-Click on "New pull request".
+Click en "New pull request".
 
 ![]({{site.baseurl}}/img/tools/github-pull-request-step-2-small.png)
 
-See if the changes shown are correct and then click "Create pull request".
+Vean si los cambios que se muestran son correctos y luego hagan click en "Create pull request".
 
 ![]({{site.baseurl}}/img/tools/github-pull-request-step-3-small.png)
 
-Fill in a title for the pull request and click on "Create".
+Agreguen un título para el pull request y hagan click en "Create".
 
 ![]({{site.baseurl}}/img/tools/github-pull-request-step-4-small.png)
 
-You are done and the pull request will look something like this:
+Listo, el pull request se verá así:
 
 ![]({{site.baseurl}}/img/tools/github-pull-request-step-5-small.png)
 
-You can click on the "Files changed" tab to see the changes that was made.
+Pueden hacer click en la etiqueta "Files changed" para ver los cambios que se hicieron.
 
 ![]({{site.baseurl}}/img/tools/github-pull-request-step-6-small.png)
 
-## How to edit a file
+## Cómo editar un archivo
 
-Go to your repository
+Vayan a su repositorio
 
 ...
 
-## How to upload an image
+## Cómo subir una imagen
 
-## How to keep your fork up-to-date
-You just forked this awesome project but it got more awesome... what do you do?
+## Cómo mantener su fork al día
+Acaban de forkear este increible proyecto, pero se pone cada vez mejor... ¿Cómo lo actualizan?
 
-### Through GitHub
+
+### A través de GitHub
 > Note:  This is assuming none of the updates made to the main repository conflict with changes you have made to yours.  Conflicts can make things a bit trickier but hopefully this is useful in most situations.
 
 Go to your repository on GitHub and click the green Pull Request button.

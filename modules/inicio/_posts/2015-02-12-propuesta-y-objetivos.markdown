@@ -2,7 +2,7 @@
 title: Propuesta y objetivos
 ---
 
-## ¿Para qué sirve esto?
+## ¿Para qué sirve este kit?
 
 ![empezando]({{site.baseurl}}/img/inicioStorm.jpg)
 
@@ -12,7 +12,7 @@ Imagen [CC-BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/) de [Jim B
 Este proyecto está orientado a educadores e intituciones educativass de cualquier tipo o nivel. Sus objetivos son:
 
 - Distribuir y compartir planes de enseñanza, planificiaciones y proyectos educativos.
-- Brindar una platafroma que permita diseñar dichos planes desde cero o a partir de otros los planes y proyectos compartidos.
+- Brindar una plataforma que permita diseñar dichos planes desde cero, o a partir de otros los planes y proyectos compartidos.
 - Reflejar en la Web parte del currículo educativo.
 - Evidenciar las reflexiones y modificaciones de los planes a partir de la práctica educativa.
 - Construir y participar de comunidad de profesionales de la educación.

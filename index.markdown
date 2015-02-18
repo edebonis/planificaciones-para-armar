@@ -3,28 +3,36 @@ layout: index
 published: true
 ---
 
-## Crear una planificación que vincule una comunidad de aprendizaje duradera
+## Kit + Curso para crea planes de enseñanza online y participar de comunidades de aprendizajes
 
-Las planificaciones pueden ser papeles de rutina o espacios de producción de ideas.
-Como los bocetos de los artistas o los croquis de los arquitectos, plasman en palabras
-e imágenes la mirada y la intención del docente.
-Sabemos por múltiples epriencias que la construcción de conocimiento no es una tarea
-solitaria, inspirados en la idea de que mas miradas pueden contribuir a mejores ideas
-creamos este espacio para publicar, distribuir y construir juntos conocimiento sobre
-las prácticas educativas que llevamos adelante.
+Las planificaciones o planes de enseñanza pueden ser papeles
+rutinarios o espacios de producción de ideas, como los bocetos de los
+artistas o los croquis de los arquitectos, estos planes plasman en
+palabras e imágenes la mirada y la intención del docente. Sabemos por
+múltiples expriencias que la construcción de conocimiento no es una
+tarea solitaria e inspirados en la idea de que más miradas pueden
+contribuir a mejores ideas, creamos este espacio para publicar,
+distribuir y construir juntos conocimiento sobre las prácticas
+educativas que llevamos adelante.
 
-La propuestas es compartir planificaciones. Como elementos que pueden ser ramificados,
-remixados y mejorados. Y construirnos como comunidad de práctica. Como profesinales de
-la educación capaces de construir reflexiones y teorías.
-Les proponemos tomar este espacio como un primer modelo a partir del cual podamos elaborar
-particualres formas de producir y publicar.
+La propuesta es compartir planificaciones. Como elementos que pueden
+ser ramificados, remixados y mejorados. Aprender en el proceso de
+construcción herraientas para la gestión de páginas y documentación
+abiertas y distribuidas. Y participar, desarrollando, una comunidad de
+práctica que que posibilire construirnos como profesionales de la
+educación capaces de construir reflexiones y teorías sobre la práctica
+cotidiana. Les proponemos tomar este espacio como un modelo tentativo
+a partir del cual podamos elaborar particulares formas de producir y
+publicar.
 
-Este es un sitio web, construido a partir de una inicitiavia de la P2PU, es probable que
-te sea necesario desarrollar algunos saberes tecnológicos nuevos. El desafío está puesto
-en usar las herramientas que reflejen el modelo de construcción abierto, colaborativo y dialógico.
+Este es un sitio web construido a partir de una inicitiavia de la
+P2PU, es probable que sea necesario desarrollar algunos saberes
+tecnológicos nuevos. El desafío está puesto en usar las herramientas
+que reflejen el modelo de construcción abierto, colaborativo y
+dialógico.
 
 
-## Muy bien, pero ¿Quiénes somos nosotros?
+## Muy bien, pero ¿Quiénes están detras de esto?
 
 [Alvar Maciel](http://acercadelaeducacion.com.ar)--Docente, técnico e inquieto. 
 [Peer 2 Peer University](http://p2pu.org)--ellos construyen comunidades de aprendizaje
@@ -36,5 +44,5 @@ en la web. En los últimos 5 años levantaron cursos como
 Son también un equipo sin fines de lucro altamente distribuido (y usan las herramientas que recomiendan).
 
 			
-## Entonces...¿Por dónde empezar?
-¡Echen un vistazo [acá]({{site.baseurl}}/modules/start/about-this-course/) para crear su própia planificación!
+## Entonces...¿Por dónde empezamos?
+¡Echen un vistazo [acá]({{site.baseurl}}/modules/start/about-this-course/) para crear empezar su própia planificación!

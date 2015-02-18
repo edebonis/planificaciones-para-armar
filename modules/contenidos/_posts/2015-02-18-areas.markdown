@@ -1,0 +1,9 @@
+---
+title: contenidos
+---
+
+## ¿Qué vamos a enseñar?
+
+![contenido]({{site.baseurl}}/img/contenido.jpg)
+
+Imagen [(CC BY 2.0)](https://creativecommons.org/licenses/by/2.0/) de [Yohanes Sanjaya](https://www.flickr.com/photos/valiantize/11282717814) en [Flickr](http://flickr.com)
