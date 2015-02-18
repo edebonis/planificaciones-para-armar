@@ -45,4 +45,4 @@ Son también un equipo sin fines de lucro altamente distribuido (y usan las herr
 
 			
 ## Entonces...¿Por dónde empezamos?
-¡Echen un vistazo [acá]({{site.baseurl}}/modules/start/about-this-course/) para crear empezar su própia planificación!
+¡Echen un vistazo [acá]({{site.baseurl}}/modules/inicio/propuesta-y-objetivos/) para crear empezar su própia planificación!
