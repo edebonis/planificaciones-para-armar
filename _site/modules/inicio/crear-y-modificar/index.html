@@ -60,7 +60,7 @@
 				
 					
 					<li class="dropdown   ">
-						<a href="/planificaciones-para-armar/modules/enfoques/prueba/"
+						<a href="/planificaciones-para-armar/modules/enfoques/marco-conceptual/"
 						   class="dropdown-item">
 							enfoques
 						</a>
@@ -195,7 +195,7 @@
 			<div class="title">
 				Next module:
 			</div>
-			<a rel="next" class="next" href="/planificaciones-para-armar/modules/enfoques/prueba/"> enfoques
+			<a rel="next" class="next" href="/planificaciones-para-armar/modules/enfoques/marco-conceptual/"> enfoques
 			</a>
 		</div>
 	
@@ -204,26 +204,49 @@
 		<div class="col-md-8 col-md-offset-1">
 			<div class="row">
 				<div class="content col-lg-12">
-					<h2>¡Hagámos algunos módulos!</h2>
+					<h2>Entendiendo el sitio</h2>
 
-<p>¡Ahora es momento de empezar a construir su sitio!</p>
+<p>Antes de empezar a meter mano, explicaremos un poco como funciona el sitio.</p>
 
 <ol>
-<li>En sus repositorios en GitHub, creen un directorio para cada módulo dentro de la carpeta <code>modules</code>. El nombre de la carpeta se reflejará en la dirección de sus sitios. Si se fijan en la dirección de este sitio, verán que la primer parte de la URL es &#39;modules/inicio&#39; ese es también el nombre <a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/tree/gh-pages/modules/inicio/">de la carpeta en el repositorio en GitHub</a>.</li>
-<li>Dentro de cada carpeta que creen, creen otra carpeta con el nombre <code>_posts</code>. Esta será la carpeta que contendrá el contenido de su sitio. Cada módulo puede tener multiples secciones.</li>
-<li></li>
-<li>Create a new file called <code>2000-01-01-projects.md</code> inside the <code>_posts</code> folder for the module you just created. The date part determines the order of the sections in the module. For instance, you can see all the sections for the learning module <a href="https://github.com/p2pu/course-in-a-box/tree/gh-pages/modules/learning/_posts">here</a>.</li>
+<li>Cada sección con contendio de este sitio está dentro de un módulo. Estos módulos se encuentran en la carpeta <code>modules</code></li>
+<li>Dentro de cada módulo hay una carpeta llamada <code>_posts</code></li>
+<li>Dentro de esa carpeta están los archivos con las secciones de cada módulo.
+El diagrama del módulo <code>incio</code> y <code>fundamentación</code> es el siguiente:</li>
 </ol>
 
-<p>If you don&#39;t want to create all the folders yourself, rename or copy one of the folders that are already there (start, community, learning, content) and update the sections appropriately.</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">.
+├── modules
+<span class="p">|</span>   ├── inicio
+<span class="p">|</span>   <span class="p">|</span>   ├── _posts
+<span class="p">|</span>   <span class="p">|</span>       ├── 2015-02-12-propuesta-y-objetivos.markdown
+<span class="p">|</span>   <span class="p">|</span>       ├── 2015-02-13-formato-basico.markdown
+<span class="p">|</span>   <span class="p">|</span>       ├── 2015-02-14-el-kit-de-construccion.markdown
+<span class="p">|</span>   <span class="p">|</span>       ├── 2015-02-15-crear-y-modificar.markdown
+<span class="p">|</span>   ├── fundamentación
+<span class="p">|</span>   <span class="p">|</span>   ├── _posts
+<span class="p">|</span>   <span class="p">|</span>       ├── 2015-02-18-marco-conceptual.markdown
+<span class="p">|</span>   <span class="p">|</span>       ├── 2015-02-19-propositos-y-objetivos.markdown</code></pre></div>
 
-<p>For modules to show up in the top navigation, you need to update the list modules in <a href="https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_data/course.yml">https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_data/course.yml</a>.</p>
+<h2>Ahora si ¡Hagámos algunos módulos!</h2>
 
-<p>Update the list of modules to reflect the modules for your course:</p>
+<p>Es momento de empezar a construir su sitio.</p>
 
-<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">modules</span><span class="p-Indicator">:</span> <span class="p-Indicator">[</span><span class="nv">start</span><span class="p-Indicator">,</span> <span class="nv">community</span><span class="p-Indicator">,</span> <span class="nv">learning</span><span class="p-Indicator">,</span> <span class="nv">content</span><span class="p-Indicator">,</span> <span class="nv">feedback</span><span class="p-Indicator">,</span> <span class="nv">references</span><span class="p-Indicator">]</span></code></pre></div>
+<ol>
+<li>Dentro de sus repositorios en GitHub, tendrán que crear un directorio para cada módulo dentro de la carpeta <code>modules</code>. El nombre de la carpeta se reflejará en la dirección de sus sitios. Si se fijan en la dirección de este sitio, verán que la primer parte de la URL es <code>modules/inicio</code> ese es también el nombre <a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/tree/gh-pages/modules/inicio/">de la carpeta en el repositorio en GitHub</a>.</li>
+<li>Dentro de cada carpeta que creen, creen otra carpeta con el nombre <code>_posts</code>. Esta será la carpeta que contendrá el contenido de su sitio. Cada módulo puede tener multiples secciones.</li>
+<li>Dentro de la carpeta <code>_posts</code> que recien crearon, creen un archivo nuevo llamdo <code>2000-01-01-proyectos.md</code>. La parte de la fecha determina el orden de la sección en el módulo. Por ejemplo, pueden ver todas las secciones del módulo incio <a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/tree/gh-pages/modules/inicio/_posts">aquí</a></li>
+</ol>
 
-<p>The video below shows all the steps for adding a module called &#39;variables&#39; to a course.</p>
+<p>Si no quieren crear nuevos módulos pueden usar los que están o renombrar los módulos que ya están creados (inicio, enfoques, contenidos, proyecotos, cronogramas, notas, referencias)</p>
+
+<p>Para que se vean los módulos en la barra de navegación, tienen que listarlos en <a href="https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/_data/course.yml">https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/_data/course.yml</a>.</p>
+
+<p>Actualizen el listado de módulos para que refleje los módulos de sus planificaciones:</p>
+
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">modules</span><span class="p-Indicator">:</span> <span class="p-Indicator">[</span><span class="nv">inicio</span><span class="p-Indicator">,</span> <span class="nv">enfoques</span><span class="p-Indicator">,</span> <span class="nv">contenidos</span><span class="p-Indicator">,</span> <span class="nv">proyectos</span><span class="p-Indicator">,</span> <span class="nv">cronogramas</span><span class="p-Indicator">,</span> <span class="nv">notas</span><span class="p-Indicator">,</span> <span class="nv">referencias</span><span class="p-Indicator">]</span></code></pre></div>
+
+<p>Este video muestra todos los pasos para agregar un módulo llamado &#39;variabeles&#39; al curso</p>
 
 <p><video src="/planificaciones-para-armar/img/add-module.webm" width="640" height="360" controls></video></p>
 
