@@ -58,7 +58,7 @@ Ahora sí, arrancamos:
    glosario de Git + Github</a> que está en castellano.
 2. Luego, en la interface del repositorio, busquen el archivo llamado
    <a class="btn btn-primary"
-   href="https://github.com/acercadelaeducacion/planificaciones-para-armar/edit/gh-pages/_data/course.yml"
+   href="https://github.com/alvarmaciel/planificaciones-para-armar/edit/gh-pages/_data/course.yml"
    target="_blank"><i class="fa fa-edit"></i>_data/course.yml y
    edítenlo</a> agregando su nombre, link a la imagen de perfil y su usuario de
    Twitter.
