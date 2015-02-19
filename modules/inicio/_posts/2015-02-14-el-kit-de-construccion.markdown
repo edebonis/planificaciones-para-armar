@@ -121,7 +121,7 @@ Para cambiar el título de sus plataforma, vayan a [https://github.com/your-gith
 
 ### ¿De quién es la plataforma y qué harán en ella?
 
-¿Es de una Institución? ¿de uno o varios docentes?. Pongan la información básica en la página principal de la plataforma para que haya un breve resumen del sitio. Para modificar la información en la página principal, vayan a la página [https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/index.markdown](https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/index.markdown) y remplacen el texto que está ahí de manera que refleje de sus expectativas. De nuevo, sepan que pueden modificar este texto en cualquier momento, de todas maneras, volveremos a esto más adelante.
+¿Es de una Institución? ¿de uno o varios docentes?. Pongan la información básica en la página principal de la plataforma para que haya un breve resumen del sitio. Para modificar la información en la página principal, vayan a la página [https://github.com/your-github-username/planificaciones-para-armar/edit/gh-pages/index.markdown](https://github.com/your-github-username/planificaciones-para-armar/edit/gh-pages/index.markdown) y remplacen el texto que está ahí de manera que refleje de sus expectativas. De nuevo, sepan que pueden modificar este texto en cualquier momento, de todas maneras, volveremos a esto más adelante.
 
 ### ¡Echemos un vistazo al sitio!
 
