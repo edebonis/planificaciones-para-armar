@@ -92,5 +92,5 @@ GEM
 PLATFORMS
   ruby
 
-DEPENDENCIES
-  github-pages
+#DEPENDENCIES
+#  github-pages
