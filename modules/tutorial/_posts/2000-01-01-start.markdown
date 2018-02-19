@@ -1,0 +1,17 @@
+---
+title: Acerca de PPA
+---
+
+# Planificacione para armar (PPA)
+
+Planificaciones para armar consiste de:
+
+ - Un módulo tutorial para guiarte en los pasos técnicos para crear tu planificación.
+ - Un módulo de recursos para ayudarte a diseñar tu contenido, proyectos, secuencias, actividades, comunidad y feedback de tu sitio.
+ - Un módulo de referencia con algunas explicaciones y detalles sobre Planificaciones Para Armar.
+ - Un foro comunitario donde pueden hacer preguntas o compartir experiencias.
+
+El resto de este módulo te guiará a través del proceso de creado de tu sitio, permitiendote agregar los módulos que quieras u actualizando el contenido de las secciones.
+
+![Image of maze with starting point indicated]({{site.baseurl}}/img/start.jpg)
+Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) by [mikecogh](https://www.flickr.com/photos/mikecogh/11300349426) on Flickr.
