@@ -1,5 +1,6 @@
 ---
-title: Resources
+title: Más recursos
+published: false
 ---
 
 ## Basics
