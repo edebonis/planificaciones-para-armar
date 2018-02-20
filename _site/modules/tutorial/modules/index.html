@@ -11,7 +11,7 @@
 	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
 
 	<title>Planificaciones para armar | Módulos</title>
-  <meta name="description" content="construir tu planificación en la web.">
+  <meta name="description" content="Construir tu planificación en la web">
   <meta name="author" content="">
 
   <meta property="og:title" content="Planificaciones para armar" />
@@ -52,7 +52,15 @@
 				</li>
 				
 					
-					<li class="dropdown active first ">
+					<li class="dropdown  first ">
+						<a href="/modules/inicio/propuesta-y-objetivos/"
+						   class="dropdown-item">
+							inicio
+						</a>
+					</li>
+				
+					
+					<li class="dropdown active  ">
 						<a href="/modules/tutorial/start/"
 						   class="dropdown-item">
 							tutorial
@@ -61,22 +69,22 @@
 				
 					
 					<li class="dropdown   ">
-						<a href="/modules/resources/community/"
+						<a href="/modules/recursos/community/"
 						   class="dropdown-item">
-							resources
+							recursos
 						</a>
 					</li>
 				
 					
 					<li class="dropdown   last">
-						<a href="/modules/references/introduction/"
+						<a href="/modules/referencias/introduction/"
 						   class="dropdown-item">
-							references
+							referencias
 						</a>
 					</li>
 				
 				<li>
-					<a href="http://community.p2pu.org/c/course-in-a-box" target="_blank">Discussion</a>
+					<a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/issues" target="_blank">Discusiones</a>
 				</li>
 			</ul>
       
@@ -99,6 +107,15 @@
 
 
 
+	
+		<div class="pagination-section">
+			<div class="title">
+				Previous module:
+			</div>
+			<a rel="prev" class="prev" href="/modules/inicio/propuesta-y-objetivos/">
+				inicio </a>
+		</div>
+		<hr />
 	
 	<ul>
 		
@@ -126,7 +143,7 @@
 			<li class="  last">
 				<a
 						href="/modules/tutorial/sections/">
-					Sections
+					Secciones
 				</a>
 			</li>
 		
@@ -137,7 +154,7 @@
 			<div class="title">
 				Next module:
 			</div>
-			<a rel="next" class="next" href="/modules/resources/community/"> resources
+			<a rel="next" class="next" href="/modules/recursos/community/"> recursos
 			</a>
 		</div>
 	
@@ -163,37 +180,37 @@
 
 <p>El nombre de las carpetas corresponde a las URL para cada módulo. Si se fijan en la URL de esta página, verán que la primera parte de la URL es ‘modules/tutorial’ y esa es también el nombre de la <a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/tree/gh-pages/modules/tutorial/">carpeta en el repositorio  GitHub repository</a>.</p>
 
-<p>Inside each of these folders, there should be another folder called <code class="highlighter-rouge">_posts</code>. This is the folder that will hold the actual content for your course. Every module can have multiple sections. Look at the <a href="https://github.com/p2pu/planificaciones-para-armar/tree/gh-pages/modules/tutorial/">tutorial folder</a> for this course and you’ll see <code class="highlighter-rouge">_posts</code>.</p>
+<p>dentro de cada una de estas carpetas, debe haber otra carpeta llamada <code class="highlighter-rouge">_posts</code>. Esta es la carpeta que contendrá el contenido de sus planificaciones. Cada módulo puede tener múltiples secciones. Chequeen en la <a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/tree/gh-pages/modules/tutorial/">carpeta tutorial</a> de este sitio y podrán ver la carpeta  <code class="highlighter-rouge">_posts</code>.</p>
 
-<p>Lets create a new module called <strong>introduction</strong>. Go to <a href="https://github.com/your-github-username/planificaciones-para-armar/tree/gh-pages/modules">https://github.com/your-github-username/planificaciones-para-armar/tree/gh-pages/modules</a> and click the “Create new file” button. This will take you to a page with a text box asking you to “name your file”. Let’s create a module called introduction - type <code class="highlighter-rouge">introduction/_posts/2000-01-01-test.md</code> in the “name your file” text box, scroll down and click on the green “Commit new file” button.</p>
+<p>Vamos a crear un nuevo módulo llamado <strong>contenidos</strong>. Vayan a  <a href="https://github.com/your-github-username/planificaciones-para-armar/tree/gh-pages/modules">https://github.com/your-github-username/planificaciones-para-armar/tree/gh-pages/modules</a> y hagan click en el botón “Create new file”. Esto les llevará a una página con una caja de texto que dice “name your file” (nombre del archivo). Vamos a crear un módulo llamado contenidos - tipeen <code class="highlighter-rouge">contenidos/_posts/2000-01-01-test.md</code> en la caja de texto que dice “name your file”, desplacense hacia abajo y hagan click en el botón verde que dice  “Commit new file”.</p>
 
-<p>You should now see a folder named <code class="highlighter-rouge">introduction</code> inside the <code class="highlighter-rouge">modules</code> folder. The <code class="highlighter-rouge">introduction</code> folder should contain a folder called <code class="highlighter-rouge">_posts</code> and the <code class="highlighter-rouge">_posts</code> folder should contain a file called <code class="highlighter-rouge">2000-01-01-test.md</code>. That last file is a section of your module, but more on that in the next section.</p>
+<p>Podran ver ahora una carpeta llamada <code class="highlighter-rouge">contenidos</code> dentro de la carpeta <code class="highlighter-rouge">modules</code>. La carpeta <code class="highlighter-rouge">contenidos</code> tiene un subcarpeta llamada <code class="highlighter-rouge">_posts</code> y la carpeta <code class="highlighter-rouge">_posts</code> debe contener un archivo llamado <code class="highlighter-rouge">2000-01-01-test.md</code>. Este último archivo es una sección del módulo, veremos más d eesto en la siguiente sección.</p>
 
-<p>Once you are done with this tutorial, you should add all the modules that you wish to use. You can also create your modules by renaming the modules that are already there.</p>
+<p>Una vez que terminen con este tutorial, pueden agregar todos los módulos que deseen. También pueden crear módulos renombrando los módulos que ya hay en este sitio.</p>
 
-<h2 id="add-the-modules-to-your-course">Add the modules to your course</h2>
+<h2 id="agregar-los-módulos-a-sus-páginas">Agregar los módulos a sus páginas</h2>
 
-<p>If you view your course you will notice that the introduction module we created is not showing up on your course site.</p>
+<p>Si chequeen su página, verán que el módulo contenidos que ya creamos todavía no es visible en la parte superior del sitio.</p>
 
-<p>For modules to show up in the top navigation, you need to update the list modules in <a href="https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/_data/course.yml">https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/_data/course.yml</a></p>
+<p>Para que se muestren los módulos en el menú de navegación, tienen que actualizar la lista de módulos en <a href="https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/_data/course.yml">https://github.com/your-github-username/planificaciones-para-armar/blob/gh-pages/_data/course.yml</a></p>
 
-<p>Change the line containing</p>
+<p>Cambien la linea que contiene</p>
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">modules</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">tutorial</span><span class="pi">,</span> <span class="nv">resources</span><span class="pi">,</span> <span class="nv">references</span><span class="pi">]</span></code></pre></figure>
 
 <p>to</p>
 
-<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">modules</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">introduction</span><span class="pi">,</span> <span class="nv">tutorial</span><span class="pi">,</span> <span class="nv">resources</span><span class="pi">,</span> <span class="nv">reference</span><span class="pi">]</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">modules</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">contenidos</span><span class="pi">,</span> <span class="nv">tutorial</span><span class="pi">,</span> <span class="nv">resources</span><span class="pi">,</span> <span class="nv">reference</span><span class="pi">]</span></code></pre></figure>
 
-<p>After a while, the new module should now show at the top of your course site: <a href="https://your-github-username.github.io/planificaciones-para-armar/">https://your-github-username.github.io/planificaciones-para-armar/</a></p>
+<p>despues de un rato, el nuevo módulo será visible en el menú superior del sitio: <a href="https://your-github-username.github.io/planificaciones-para-armar/">https://your-github-username.github.io/planificaciones-para-armar/</a></p>
 
-<h2 id="extra-resources">Extra resources</h2>
+<h2 id="recursos-extras">Recursos extras</h2>
 
-<p>The video below shows all the steps for adding a module called ‘variables’ to a course.</p>
+<p>Este video muestra paso a paso como agregar un módulo llamado ‘variables’ al sitio.</p>
 
 <video src="/img/add-module.webm" width="640" height="360" controls=""></video>
 
-<p>You are now ready to get to the meat and potatoes of building your course, the sections containing the content!</p>
+<p>Están listos ahora para meterse de lleno en la construcción de sus planificaciones, ¡las secciones que contienen el contenido!</p>
 
 					
 
@@ -207,7 +224,7 @@
 					
 						<div class="pagination-section pull-left">
 							<div class="title">
-								Previous section:
+								Sección previa:
 							</div>
 							<a rel="prev" class="prev" href="/modules/tutorial/setup/">
 								Crear tu sitio </a>
@@ -216,9 +233,9 @@
 					
 						<div class="pagination-section pull-right">
 							<div class="title">
-								Next section:
+								Siguiente seccion:
 							</div>
-							<a rel="next" class="next" href="/modules/tutorial/sections/"> Sections
+							<a rel="next" class="next" href="/modules/tutorial/sections/"> Secciones
 							</a>
 						</div>
 					

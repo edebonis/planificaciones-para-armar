@@ -10,8 +10,8 @@
 	<meta charset="utf-8">
 	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
 
-	<title>Planificaciones para armar | Sections</title>
-  <meta name="description" content="construir tu planificación en la web.">
+	<title>Planificaciones para armar | Secciones</title>
+  <meta name="description" content="Construir tu planificación en la web">
   <meta name="author" content="">
 
   <meta property="og:title" content="Planificaciones para armar" />
@@ -52,7 +52,15 @@
 				</li>
 				
 					
-					<li class="dropdown active first ">
+					<li class="dropdown  first ">
+						<a href="/modules/inicio/propuesta-y-objetivos/"
+						   class="dropdown-item">
+							inicio
+						</a>
+					</li>
+				
+					
+					<li class="dropdown active  ">
 						<a href="/modules/tutorial/start/"
 						   class="dropdown-item">
 							tutorial
@@ -61,22 +69,22 @@
 				
 					
 					<li class="dropdown   ">
-						<a href="/modules/resources/community/"
+						<a href="/modules/recursos/community/"
 						   class="dropdown-item">
-							resources
+							recursos
 						</a>
 					</li>
 				
 					
 					<li class="dropdown   last">
-						<a href="/modules/references/introduction/"
+						<a href="/modules/referencias/introduction/"
 						   class="dropdown-item">
-							references
+							referencias
 						</a>
 					</li>
 				
 				<li>
-					<a href="http://community.p2pu.org/c/course-in-a-box" target="_blank">Discussion</a>
+					<a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/issues" target="_blank">Discusiones</a>
 				</li>
 			</ul>
       
@@ -99,6 +107,15 @@
 
 
 
+	
+		<div class="pagination-section">
+			<div class="title">
+				Previous module:
+			</div>
+			<a rel="prev" class="prev" href="/modules/inicio/propuesta-y-objetivos/">
+				inicio </a>
+		</div>
+		<hr />
 	
 	<ul>
 		
@@ -126,7 +143,7 @@
 			<li class="active  last">
 				<a
 						href="/modules/tutorial/sections/">
-					Sections
+					Secciones
 				</a>
 			</li>
 		
@@ -137,7 +154,7 @@
 			<div class="title">
 				Next module:
 			</div>
-			<a rel="next" class="next" href="/modules/resources/community/"> resources
+			<a rel="next" class="next" href="/modules/recursos/community/"> recursos
 			</a>
 		</div>
 	
@@ -146,55 +163,56 @@
 		<div class="col-md-8 col-md-offset-1">
 			<div class="row">
 				<div class="content col-lg-12">
-					<h1 id="sections">Sections</h1>
+					<h1 id="secciones">Secciones</h1>
 
-<p>Sections are where the actual content for you course lives. Together they make up a bunch of modules and the modules together is what makes your course.</p>
+<p>Las secciones es donde el contenido de las planificaciones vivem. Juntas, hacen los módulos y los módulos hacen el sitio.</p>
 
-<p>What content you put in your sections is up to you, it can be mostly textual, a tutorial like this section, a video, a project, or anything you’d like to use in your course.</p>
+<p>Qué contenido ponene en las secciones dependerá de ustedes, puede ser principalmente texto, un tutorial como esta sección, un video, un proyecto, o cualquier cosa que quieran poner en las planificaciones.</p>
 
-<h2 id="add-content-to-your-course">Add Content to Your Course</h2>
+<h2 id="agregar-contenido-al-sitio">Agregar contenido al sitio</h2>
 
-<p>To add content, you need to create a section in a module. You can do so the same way you created a test section inside the introduction module before. Go to the folder for the module ex. <a href="https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/introduction/_posts">https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/introduction/_posts</a> and create a new file for every section that you want within the module.</p>
+<p>Para agregar contenido, tienen que crear una sección en un módulo. Pueden hacerlo de la misma forma que crearon la sección test dentro del módulo contenido en el paso anterior. Vayan a la carpeta para el móduo, por ejemplo; <a href="https://github.com/your-github-username/planificaciones-para-armar/tree/gh-pages/modules/contenidos/_posts">https://github.com/your-github-username/planificaciones-para-armar/tree/gh-pages/modules/contenidos/_posts</a> y creen un nuevo archivo para cada sección que quieran que esté en es módulo.</p>
 
-<p>While adding the test section to the introduction module, you maybe have noticed that we called the last part of the file name was <code class="highlighter-rouge">2000-01-01-test.md</code> and not simply <code class="highlighter-rouge">test</code>. When you add sections, you need to make sure that the file name starts with a valid date in the format <code class="highlighter-rouge">YYYY-MM-DD</code>. The actual date you use doesn’t matter, bu it will be used to determine the order of the sections inside your module.</p>
+<p>Cuando agregamos la sección test al módulo contenidos, se habrán dado cuenta que nombramos al final del archivo como <code class="highlighter-rouge">2000-01-01-test.md</code> no le pusimos simplemente <code class="highlighter-rouge">test</code>. Cuando agregan secciones, tienen que asegurarse que el archivo comience con un formato valido de fecha, esto es: <code class="highlighter-rouge">YYYY-MM-DD</code>. O en castellano, <code class="highlighter-rouge">AÑO-MES-DIA</code> la fecha que pongan no importa, pero será usada para determinar el orden de las seccones dentro de sus módulos.</p>
 
-<p>After the date, you should put the section name and finally, you should append <code class="highlighter-rouge">.md</code> to the end of the file name so that to format for the full file name is <code class="highlighter-rouge">YYYY-MM-DD-your-section-name.md</code>.</p>
+<p>Después de la fecha, tienen que poner el nombre de la sección y finalmente, tienen que agregarle <code class="highlighter-rouge">.md</code> al final del archivo. Entonces para repasar el formato de los nombres de los archivos en las secciones, quedarían así <code class="highlighter-rouge">AAAA-MM-DD-el-nombre-de-la-seccion.md</code>.</p>
 
-<p>Content will show up automatically as soon as you commit and save (booyah!). To check how your spiffy content looks, you can go to <a href="http://your-github-username.github.io/course-in-a-box/">http://your-github-username.github.io/course-in-a-box/</a> to look at it.</p>
+<p>El contenido se mostrará automáticamente a medida que salven y hagan commit (booyah!)
+Content will show up automatically as soon as you commit and save . Para ver como va quedando el contenido, pueden ir a  <a href="http://your-github-username.github.io/planificaciones-para-armar/">http://your-github-username.github.io/planificaciones-para-armar/</a> e ir chequeando.</p>
 
-<h2 id="editing-content">Editing content</h2>
+<h2 id="editando-contenido">Editando contenido</h2>
 
-<p>There are two important parts to your content. First is what is called the ‘front matter’ This is a fancy way to describe some extra data that will be used to display your section.</p>
+<p>Hay dos partes importantes en el contenido. Primero lo que es llamado el ‘front matter’ (juego de palabras que en inglés sería algo así como ‘asunto principal’ o ‘la importancia del principio’. Este es una forma elegante para describir algunos datos extras que serán usados para mostrar la sección.</p>
 
-<p>Have a look at this section <a href="https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/setup/_posts/2000-01-04-content.md">https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/setup/_posts/2000-01-04-content.md</a></p>
+<p>Miren esta sección: <a href="https://github.com/your-github-username/planificaciones-para-armar/tree/gh-pages/modules/tutorial/_posts/2000-01-04-sections.md">https://github.com/your-github-username/planificaciones-para-armar/tree/gh-pages/modules/tutorial/_posts/2000-01-04-sections.md</a></p>
 
-<p>If you edit that file, you’ll notice</p>
+<p>Si editan este archivo, verán esto</p>
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
-<span class="na">title</span><span class="pi">:</span> <span class="s">Sections</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Secciones</span>
 <span class="nn">---</span></code></pre></figure>
 
-<p>at the top. You can update the title to change the title displayed in the sidebar when viewing the section.</p>
+<p>al principio. Pueden modificar el título para que cambie el título de la sección que se muestra en la barra de la derecha.</p>
 
-<p>Secondly, you’ll notice the text for this section below that:</p>
+<p>En segundo lugar, notarán el texto para esa sección está escrito de la siguiente forma:</p>
 
-<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="c1"># Sections</span>
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="c1"># Secciones</span>
 
-<span class="s">Sections are where the actual content for you course lives. Together they make up a bunch of modules and the modules together is what makes your course.</span>
+<span class="s">Las secciones es donde el contenido de las planificaciones vivem. Juntas, hacen los módulos y los módulos hacen el sitio.</span>
 
-<span class="s">What content you put in your sections is up to you, it can be mostly textual, a tutorial like this section, a video, a project, or anything you'd like to use in your course.</span>
+<span class="s">Qué contenido ponene en las secciones dependerá de ustedes, puede ser principalmente texto, un tutorial como esta sección, un video, un proyecto, o cualquier cosa que quieran poner en las planificaciones.</span>
 
-<span class="c1">## Add Content to Your Course</span>
+<span class="c1">## Agregar contenido al sitio</span>
 
-<span class="s">To add content, you need to create a section in a module. You can do so the same way you created a test section inside the introduction module before. Go to the folder for the module ex. [https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/introduction/_posts](https://github.com/your-github-username/course-in-a-box/tree/gh-pages/modules/introduction/_posts) and create a new file for every section that you want within the module.</span></code></pre></figure>
+<span class="s">Para agregar contenido, tienen que crear una sección en un módulo. Pueden hacerlo de la misma forma que crearon la sección test dentro del módulo contenido en el paso anterior. Vayan a la carpeta para el móduo, por ejemplo; [https://github.com/your-github-username/planificaciones-para-armar/tree/gh-pages/modules/contenidos/_posts](https://github.com/your-github-username/planificaciones-para-armar/tree/gh-pages/modules/contenidos/_posts) y creen un nuevo archivo para cada sección que quieran que esté en es módulo.</span></code></pre></figure>
 
-<p>While the text should be more or less, readable, you will notice some characters that you don’t see on this page. That is because you will use Markdown to write the content for your course.</p>
+<p>Mientras que el texto debe ser más o menos leible, notarán algunos carácteres que no se ven en esta página. esto es porque usarán Markdown para escribir el contenido de sus secciones.</p>
 
-<p>Markdown is simple way to easily write content that can be turned into formatted and styled HTML. There are many resources online explaining how to you Markdown and there is a <a href="/modules/references/markdown-cheatsheet/">Markdown cheatsheet</a> in the resources section to help you get started quickly.</p>
+<p>Markdown es una forma simple para escribir contenido que facilmente puede convertirse en formato y estilo HTML. hay muchos recursos online que explican como escribir usando Markdown y hay un <a href="/modules/references/markdown-cheatsheet/">Machete para Markdown</a> en la sección referencias para ayudarles a empezar.</p>
 
-<h2 id="the-hard-work-begins">The hard work begins</h2>
+<h2 id="el-trabajo-duro-comienza">El trabajo duro comienza</h2>
 
-<p>Now that you’ve covered the basic of using course in a box, the hard work of creating your course begins! We have some advice in the resources section to help you design you course and you can consult the references section if you get stuck anywhere.</p>
+<p>Ahora que ya vimos lo básico del uso de Planificaciones Para Armar, el trabajo real de crear los planes comienza, tenemos algunos consejos en el módulo recursos que les ayudará a diseñar sus espacios y pueden consultar las referencias si se traban en algún lugar.</p>
 
 					
 
@@ -208,7 +226,7 @@
 					
 						<div class="pagination-section pull-left">
 							<div class="title">
-								Previous section:
+								Sección previa:
 							</div>
 							<a rel="prev" class="prev" href="/modules/tutorial/modules/">
 								Módulos </a>

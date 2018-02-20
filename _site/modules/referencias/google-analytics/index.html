@@ -10,8 +10,8 @@
 	<meta charset="utf-8">
 	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
 
-	<title>Planificaciones para armar | Glossary</title>
-  <meta name="description" content="construir tu planificación en la web.">
+	<title>Planificaciones para armar | How to use Google Analytics</title>
+  <meta name="description" content="Construir tu planificación en la web">
   <meta name="author" content="">
 
   <meta property="og:title" content="Planificaciones para armar" />
@@ -53,6 +53,14 @@
 				
 					
 					<li class="dropdown  first ">
+						<a href="/modules/inicio/propuesta-y-objetivos/"
+						   class="dropdown-item">
+							inicio
+						</a>
+					</li>
+				
+					
+					<li class="dropdown   ">
 						<a href="/modules/tutorial/start/"
 						   class="dropdown-item">
 							tutorial
@@ -61,22 +69,22 @@
 				
 					
 					<li class="dropdown   ">
-						<a href="/modules/resources/community/"
+						<a href="/modules/recursos/community/"
 						   class="dropdown-item">
-							resources
+							recursos
 						</a>
 					</li>
 				
 					
 					<li class="dropdown active  last">
-						<a href="/modules/references/introduction/"
+						<a href="/modules/referencias/introduction/"
 						   class="dropdown-item">
-							references
+							referencias
 						</a>
 					</li>
 				
 				<li>
-					<a href="http://community.p2pu.org/c/course-in-a-box" target="_blank">Discussion</a>
+					<a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/issues" target="_blank">Discusiones</a>
 				</li>
 			</ul>
       
@@ -104,8 +112,8 @@
 			<div class="title">
 				Previous module:
 			</div>
-			<a rel="prev" class="prev" href="/modules/resources/community/">
-				resources </a>
+			<a rel="prev" class="prev" href="/modules/recursos/community/">
+				recursos </a>
 		</div>
 		<hr />
 	
@@ -113,49 +121,49 @@
 		
 			<li class=" first ">
 				<a
-						href="/modules/references/introduction/">
+						href="/modules/referencias/introduction/">
 					Introduction
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/github-cheatsheet/">
+						href="/modules/referencias/github-cheatsheet/">
 					GitHub Cheatsheet
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/markdown-cheatsheet/">
+						href="/modules/referencias/markdown-cheatsheet/">
 					Markdown Cheatsheet
 				</a>
 			</li>
 		
-			<li class="active  ">
+			<li class="  ">
 				<a
-						href="/modules/references/glossary/">
+						href="/modules/referencias/glossary/">
 					Glossary
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/course-template/">
+						href="/modules/referencias/course-template/">
 					Course template explained
 				</a>
 			</li>
 		
-			<li class="  ">
+			<li class="active  ">
 				<a
-						href="/modules/references/google-analytics/">
+						href="/modules/referencias/google-analytics/">
 					How to use Google Analytics
 				</a>
 			</li>
 		
 			<li class="  last">
 				<a
-						href="/modules/references/resources/">
+						href="/modules/referencias/resources/">
 					Resources
 				</a>
 			</li>
@@ -167,33 +175,16 @@
 		<div class="col-md-8 col-md-offset-1">
 			<div class="row">
 				<div class="content col-lg-12">
-					<p>##We refer to quite a lot of terms and resources in this course - here is where they’re all explained, because we like to avoid jargon!</p>
+					<h1 id="how-do-i-use-google-analytics-to-see-how-people-are-using-my-course">How do I use Google Analytics to see how people are using my course?</h1>
 
-<p><a href="http://www.wikipedia.org/wiki/Domain_Name_System">DNS</a> - Domain Name Service. The telephone directory of the internet. In short, when you enter p2pu.org, DNS is what sends you to the right computer on the internet that contains the website you are looking for. Why is this relevant? Well, maybe you want to use myawesomecourse.org for your course. In that case you will need to register a domain name.</p>
+<ol>
+  <li>Register for a Google Analytics account</li>
+  <li>Create a new property and get the tracking code</li>
+  <li>Add your tracking code to <a href="https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_config.yml">https://github.com/your-github-username/course-in-a-box/blob/gh-pages/_config.yml</a></li>
+</ol>
 
-<p><a href="https://github.com">Github</a> - Git hosting service with other colaborative tools added. Hosting for open source software and open content is free! See our <a href="http://howto.p2pu.org/modules/references/github-cheatsheet/">Github cheatsheet</a>.</p>
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">ga_tracking_code</span><span class="pi">:</span> <span class="s">UA-5757664-19</span></code></pre></figure>
 
-<p><a href="http://git-scm.com">Git</a> - Version control software. Git allows you to track changes to a set of documents. Not sure what I mean, have a look at <a href="https://github.com/p2pu/course-in-a-box/commits/gh-pages">the history for this repostory</a>.</p>
-
-<p><a href="http://jekyllrb.com">Jekyll</a> - Software that ‘ingests’ a directory with files as input and outputs a directory of files ready to host as a website on the internet.</p>
-
-<p><a href="https://pages.github.com">GitHub Pages</a> - A hosted version of Github + Jekyll. Important part -&gt; if you use GitHub Pages you don’t need to install and run Jekyll and you don’t need to pay for hosting!</p>
-
-<p><a href="http://www.google.com/analytics/">Google Analytics</a> - Service offered by Google to track page views and other metrics on a web page.</p>
-
-<p><a href="http://www.discourse.org">Discourse</a> - Takes the idea of online forums to a whole new level.  Conversations can be viewed as a continuous flow within categories that keep you up to date on what you are interested in.  Join in on our conversations at <a href="http://community.p2pu.org/">http://community.p2pu.org/</a>.</p>
-
-<p><a href="https://disqus.com">Disqus</a> - You have probably used Disqus already without even realizing it, it’s everywhere.  Disqus makes it simple to add comment sections to any page and is supported on many popular blogging and content management platforms.</p>
-
-<p><a href="http://mailchimp.com">MailChimp</a> - Online service for automating emails that also provides analytics on how your community is interacting with your email communications.</p>
-
-<p><a href="https://ifttt.com">IFTTT</a> - If This Then That. Online service that allows you to string together different web services with a single recipe.</p>
-
-<p><a href="http://etherpad.org">Etherpads</a> - Collaborative online documents which can be written and edited in real time. Open source, but you need to host it. <a href="https://hackpad.com">Hackpad</a> is similar and hosted for you, but is not open source.</p>
-
-<p><a href="http://www.google.com/docs/about/">Google Docs</a> - Collaborative online document, spreadsheet, and presentation editing services provided by Google.</p>
-
-<p><a href="https://www.google.co.uk/forms/about/">Google Forms</a> - A component of Google Docs but worth mentioning on its own.  Google Forms allow for the easy creation, sending, and collection of responses for online surveys.</p>
 
 					
 
@@ -207,18 +198,18 @@
 					
 						<div class="pagination-section pull-left">
 							<div class="title">
-								Previous section:
+								Sección previa:
 							</div>
-							<a rel="prev" class="prev" href="/modules/references/markdown-cheatsheet/">
-								Markdown Cheatsheet </a>
+							<a rel="prev" class="prev" href="/modules/referencias/course-template/">
+								Course template explained </a>
 						</div>
 					
 					
 						<div class="pagination-section pull-right">
 							<div class="title">
-								Next section:
+								Siguiente seccion:
 							</div>
-							<a rel="next" class="next" href="/modules/references/course-template/"> Course template explained
+							<a rel="next" class="next" href="/modules/referencias/resources/"> Resources
 							</a>
 						</div>
 					

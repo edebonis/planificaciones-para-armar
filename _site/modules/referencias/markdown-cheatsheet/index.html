@@ -10,8 +10,8 @@
 	<meta charset="utf-8">
 	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
 
-	<title>Planificaciones para armar | Resources</title>
-  <meta name="description" content="construir tu planificación en la web.">
+	<title>Planificaciones para armar | Markdown Cheatsheet</title>
+  <meta name="description" content="Construir tu planificación en la web">
   <meta name="author" content="">
 
   <meta property="og:title" content="Planificaciones para armar" />
@@ -53,6 +53,14 @@
 				
 					
 					<li class="dropdown  first ">
+						<a href="/modules/inicio/propuesta-y-objetivos/"
+						   class="dropdown-item">
+							inicio
+						</a>
+					</li>
+				
+					
+					<li class="dropdown   ">
 						<a href="/modules/tutorial/start/"
 						   class="dropdown-item">
 							tutorial
@@ -61,22 +69,22 @@
 				
 					
 					<li class="dropdown   ">
-						<a href="/modules/resources/community/"
+						<a href="/modules/recursos/community/"
 						   class="dropdown-item">
-							resources
+							recursos
 						</a>
 					</li>
 				
 					
 					<li class="dropdown active  last">
-						<a href="/modules/references/introduction/"
+						<a href="/modules/referencias/introduction/"
 						   class="dropdown-item">
-							references
+							referencias
 						</a>
 					</li>
 				
 				<li>
-					<a href="http://community.p2pu.org/c/course-in-a-box" target="_blank">Discussion</a>
+					<a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/issues" target="_blank">Discusiones</a>
 				</li>
 			</ul>
       
@@ -104,8 +112,8 @@
 			<div class="title">
 				Previous module:
 			</div>
-			<a rel="prev" class="prev" href="/modules/resources/community/">
-				resources </a>
+			<a rel="prev" class="prev" href="/modules/recursos/community/">
+				recursos </a>
 		</div>
 		<hr />
 	
@@ -113,49 +121,49 @@
 		
 			<li class=" first ">
 				<a
-						href="/modules/references/introduction/">
+						href="/modules/referencias/introduction/">
 					Introduction
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/github-cheatsheet/">
+						href="/modules/referencias/github-cheatsheet/">
 					GitHub Cheatsheet
 				</a>
 			</li>
 		
-			<li class="  ">
+			<li class="active  ">
 				<a
-						href="/modules/references/markdown-cheatsheet/">
+						href="/modules/referencias/markdown-cheatsheet/">
 					Markdown Cheatsheet
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/glossary/">
+						href="/modules/referencias/glossary/">
 					Glossary
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/course-template/">
+						href="/modules/referencias/course-template/">
 					Course template explained
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/google-analytics/">
+						href="/modules/referencias/google-analytics/">
 					How to use Google Analytics
 				</a>
 			</li>
 		
-			<li class="active  last">
+			<li class="  last">
 				<a
-						href="/modules/references/resources/">
+						href="/modules/referencias/resources/">
 					Resources
 				</a>
 			</li>
@@ -167,24 +175,93 @@
 		<div class="col-md-8 col-md-offset-1">
 			<div class="row">
 				<div class="content col-lg-12">
-					<h2 id="basics">Basics</h2>
+					<h1 id="markdown-cheatsheet">Markdown Cheatsheet</h1>
 
-<p>These are some links that will help you with setting up a course using the template:</p>
+<p>Markdown is a plain text formatting language which has been designed to be easily converted to HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. This cheatsheet will help you to get going using Markdown.</p>
+
+<p><strong>Some bold text</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>**Some bold text**
+</code></pre></div></div>
+
+<hr />
+
+<p><em>Some italics</em></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*Some italics*
+</code></pre></div></div>
+
+<hr />
+
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Heading 1
+## Heading 2
+### Heading 3
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Heading 1
+=========
+Heading 2
+---------
+### Heading 3
+</code></pre></div></div>
+
+<hr />
 
 <ul>
-  <li><a href="http://daringfireball.net/projects/markdown/syntax">Markdown reference</a></li>
+  <li>list item</li>
+  <li>list item</li>
+  <li>sub list item</li>
+  <li>list item
+    <ol>
+      <li>numbered sub list item 1</li>
+      <li>numbered sub list item 2</li>
+      <li>numbered sub list item 3</li>
+    </ol>
+  </li>
 </ul>
 
-<h2 id="intermediate">Intermediate</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- list item
+- list item
+ - sub list item 
+- list item
+ 1. numbered sub list item 1
+ 1. numbered sub list item 2
+ 1. numbered sub list item 3
+</code></pre></div></div>
 
-<h2 id="advanced">Advanced</h2>
+<hr />
 
-<p>Here are some links for you if you are planning to customize the provided course template:</p>
+<p><a href="https://p2pu.org">link to p2pu</a></p>
 
-<ul>
-  <li><a href="]http://jekyllbootstrap.com/lessons/jekyll-introduction.html">Jekyll nuts and bolts</a></li>
-  <li><a href="http://docs.shopify.com/themes/liquid-basics">Liquid reference</a></li>
-</ul>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[link to p2pu](https://p2pu.org)
+</code></pre></div></div>
+
+<hr />
+
+<p><img src="https://p2pu.org/static/images/homepage/logo-p2pu-menu.png" alt="Alternative text for image" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Alternative text for image](https://p2pu.org/static/images/homepage/logo-p2pu-menu.png)
+</code></pre></div></div>
+
+<hr />
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/5LtpOZT0z7E" frameborder="0" allowfullscreen=""></iframe>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;iframe width="640" height="360" src="//www.youtube.com/embed/5LtpOZT0z7E" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+</code></pre></div></div>
+
+<hr />
+
+<p><a class="btn btn-primary" href="#"><i class="fa fa-home"></i> A fancy button</a></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a class="btn btn-primary" href="#"&gt;&lt;i class="fa fa-home"&gt;&lt;/i&gt; A fancy button&lt;/a&gt;
+</code></pre></div></div>
 
 					
 
@@ -198,12 +275,20 @@
 					
 						<div class="pagination-section pull-left">
 							<div class="title">
-								Previous section:
+								Sección previa:
 							</div>
-							<a rel="prev" class="prev" href="/modules/references/google-analytics/">
-								How to use Google Analytics </a>
+							<a rel="prev" class="prev" href="/modules/referencias/github-cheatsheet/">
+								GitHub Cheatsheet </a>
 						</div>
 					
+					
+						<div class="pagination-section pull-right">
+							<div class="title">
+								Siguiente seccion:
+							</div>
+							<a rel="next" class="next" href="/modules/referencias/glossary/"> Glossary
+							</a>
+						</div>
 					
 				</div>
 			</div>

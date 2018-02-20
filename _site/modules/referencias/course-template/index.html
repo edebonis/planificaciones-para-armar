@@ -10,8 +10,8 @@
 	<meta charset="utf-8">
 	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
 
-	<title>Planificaciones para armar | Introduction</title>
-  <meta name="description" content="construir tu planificación en la web.">
+	<title>Planificaciones para armar | Course template explained</title>
+  <meta name="description" content="Construir tu planificación en la web">
   <meta name="author" content="">
 
   <meta property="og:title" content="Planificaciones para armar" />
@@ -53,6 +53,14 @@
 				
 					
 					<li class="dropdown  first ">
+						<a href="/modules/inicio/propuesta-y-objetivos/"
+						   class="dropdown-item">
+							inicio
+						</a>
+					</li>
+				
+					
+					<li class="dropdown   ">
 						<a href="/modules/tutorial/start/"
 						   class="dropdown-item">
 							tutorial
@@ -61,22 +69,22 @@
 				
 					
 					<li class="dropdown   ">
-						<a href="/modules/resources/community/"
+						<a href="/modules/recursos/community/"
 						   class="dropdown-item">
-							resources
+							recursos
 						</a>
 					</li>
 				
 					
 					<li class="dropdown active  last">
-						<a href="/modules/references/introduction/"
+						<a href="/modules/referencias/introduction/"
 						   class="dropdown-item">
-							references
+							referencias
 						</a>
 					</li>
 				
 				<li>
-					<a href="http://community.p2pu.org/c/course-in-a-box" target="_blank">Discussion</a>
+					<a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/issues" target="_blank">Discusiones</a>
 				</li>
 			</ul>
       
@@ -104,58 +112,58 @@
 			<div class="title">
 				Previous module:
 			</div>
-			<a rel="prev" class="prev" href="/modules/resources/community/">
-				resources </a>
+			<a rel="prev" class="prev" href="/modules/recursos/community/">
+				recursos </a>
 		</div>
 		<hr />
 	
 	<ul>
 		
-			<li class="active first ">
+			<li class=" first ">
 				<a
-						href="/modules/references/introduction/">
+						href="/modules/referencias/introduction/">
 					Introduction
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/github-cheatsheet/">
+						href="/modules/referencias/github-cheatsheet/">
 					GitHub Cheatsheet
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/markdown-cheatsheet/">
+						href="/modules/referencias/markdown-cheatsheet/">
 					Markdown Cheatsheet
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/glossary/">
+						href="/modules/referencias/glossary/">
 					Glossary
 				</a>
 			</li>
 		
-			<li class="  ">
+			<li class="active  ">
 				<a
-						href="/modules/references/course-template/">
+						href="/modules/referencias/course-template/">
 					Course template explained
 				</a>
 			</li>
 		
 			<li class="  ">
 				<a
-						href="/modules/references/google-analytics/">
+						href="/modules/referencias/google-analytics/">
 					How to use Google Analytics
 				</a>
 			</li>
 		
 			<li class="  last">
 				<a
-						href="/modules/references/resources/">
+						href="/modules/referencias/resources/">
 					Resources
 				</a>
 			</li>
@@ -167,13 +175,25 @@
 		<div class="col-md-8 col-md-offset-1">
 			<div class="row">
 				<div class="content col-lg-12">
-					<p><img src="/img/reference.jpg" alt="Picture of references" /></p>
+					<h1 id="github-course-template-explained">Github course template explained</h1>
 
-<p>Image <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY-SA</a> by <a href="https://www.flickr.com/photos/bohman/">bohman</a> on Flickr.</p>
+<h2 id="directory-layout">Directory layout</h2>
 
-<p>This module contains a lot of resources; mostly related to the technical side of how to create an online course. If you have any questions about these references or any questions that are not addressed here, please ask us on <a href="http://community.p2pu.org/category/tech">community.p2pu.org</a>.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_config.yml
+_data/course.html
+_layout/base.html
+_layout/course_page.html
+_layout/course_about.html
+_layout/page.html
+</code></pre></div></div>
+<h2 id="course-data">Course data</h2>
 
-<p><a class="btn btn-primary" target="_blank" href="http://community.p2pu.org/category/tech"><i class="fa fa-weixin"></i> Ask us stuff!</a></p>
+<p><strong>_data/course.yml</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>title: "DIY U: Build a Personal Learning Plan"
+language: en
+image: /img/diy-u/thumb.jpg
+</code></pre></div></div>
 
 					
 
@@ -185,12 +205,20 @@
 						<hr />
 					
 					
+						<div class="pagination-section pull-left">
+							<div class="title">
+								Sección previa:
+							</div>
+							<a rel="prev" class="prev" href="/modules/referencias/glossary/">
+								Glossary </a>
+						</div>
+					
 					
 						<div class="pagination-section pull-right">
 							<div class="title">
-								Next section:
+								Siguiente seccion:
 							</div>
-							<a rel="next" class="next" href="/modules/references/github-cheatsheet/"> GitHub Cheatsheet
+							<a rel="next" class="next" href="/modules/referencias/google-analytics/"> How to use Google Analytics
 							</a>
 						</div>
 					
