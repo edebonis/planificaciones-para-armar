@@ -1,80 +1,83 @@
 ---
-title: Markdown Cheatsheet
+title: Machete de Markdown
 ---
 
-# Markdown Cheatsheet
+# Machete de Markdown
 
-Markdown is a plain text formatting language which has been designed to be easily converted to HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. This cheatsheet will help you to get going using Markdown.
+Markdown es un lenguaje de formato de texto plano que fue diseñado para convertirse facilmente en HTML. Markdown es frecuentemente usado para dar formato a los archivos README, para escribir mensajes en foros de discusión online, y para crear contenido enriquecido, usando editores de texto plano. Este machete les ayudará a usar Markdown.
 
-**Some bold text**
-
-```
-**Some bold text**
-```
-
-----
-
-*Some italics*
+**Texto en negrita**
 
 ```
-*Some italics*
+**Texto en negrita**
 ```
 
 ----
 
-# Heading 1
-## Heading 2
-### Heading 3
+*texto en itálica*
 
-    # Heading 1
-    ## Heading 2
-    ### Heading 3
+```
+*texto en itálica*
+```
 
-or
+----
 
-    Heading 1
+# Título 1
+## Título 2
+### Título 3
+
+    # Título 1
+    ## Título 2
+    ### Título 3
+
+o
+
+    Título 1
     =========
-    Heading 2
+    Título 2
     ---------
-    ### Heading 3
+    ### Título 3
 
 ----
 
-- list item
-- list item
- - sub list item 
-- list item
- 1. numbered sub list item 1
- 1. numbered sub list item 2
- 1. numbered sub list item 3
+- Elemento de lista
+- Elemento de lista
+ - Subelemento de lista
+- Elemento de lista
+ 1. Subelemento de lista numerado 1
+ 1. Subelemento de lista numerado 2
+ 1. Subelemento de lista numerado 3
 
 ```
-- list item
-- list item
- - sub list item 
-- list item
- 1. numbered sub list item 1
- 1. numbered sub list item 2
- 1. numbered sub list item 3
-```
-
-----
-
-[link to p2pu](https://p2pu.org)
-
-```
-[link to p2pu](https://p2pu.org)
+- Elemento de lista
+- Elemento de lista
+ - Subelemento de lista
+- Elemento de lista
+ 1. Subelemento de lista numerado 1
+ 1. Subelemento de lista numerado 2
+ 1. Subelemento de lista numerado 3
 ```
 
 ----
 
-![Alternative text for image](https://p2pu.org/static/images/homepage/logo-p2pu-menu.png)
+[link a p2pu](https://p2pu.org)
 
 ```
-![Alternative text for image](https://p2pu.org/static/images/homepage/logo-p2pu-menu.png)
+[link a p2pu](https://p2pu.org)
 ```
 
 ----
+
+Imagenes:
+
+![Texto alternativo para una imagen](https://www.p2pu.org/assets/images/p2pu-logo.png)
+
+```
+![Texto alternativo para una imagen](https://www.p2pu.org/assets/images/p2pu-logo.png)
+```
+
+----
+Videos:
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/5LtpOZT0z7E" frameborder="0" allowfullscreen></iframe>
 
@@ -83,6 +86,7 @@ or
 ```
 
 ----
+HTML:
 
 <a class="btn btn-primary" href="#"><i class="fa fa-home"></i> A fancy button</a>
 

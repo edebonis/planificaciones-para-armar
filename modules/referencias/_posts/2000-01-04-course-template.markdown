@@ -1,5 +1,6 @@
 ---
 title: Course template explained
+published: false
 ---
 
 # Github course template explained
