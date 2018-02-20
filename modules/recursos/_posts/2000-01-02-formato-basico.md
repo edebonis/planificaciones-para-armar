@@ -15,8 +15,7 @@ modelos y puntos de partida que enriquezcan nuestra profesión. Un arte efímero
 
 ## Punto de partida
 
-Este es un personal punto de partida. La estructura de este sitio-plataforma-curso surge de [una particular](http://www.acercadelaeducacion.com.ar/2014/08/aula-taller-ultimo-eslabon-del-anillo-de-recursos-para-el-aula/)
-forma de planificar que se fue modificando con los años [2014](http://www.acercadelaeducacion.com.ar/2014/)  y mucho más para el [2017](https://alvarmaciel.github.io/quintogrado/)La plataforma tiene la estructura de una forma de planificar, pero es justamente una estructura que pueden cambiar a su gusto, de eso se trata este módulo específicamente.
+Este es un personal punto de partida. La estructura del sitio surge de particular forma de planificar que se fue modificando con los años. Esta estructura va a estar definida por los módulos y las secciones que consideren necesarias.
 
 
 Esta es la estructura de planificación online que voy a mantener este
