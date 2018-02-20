@@ -19,7 +19,8 @@ Este proyecto está orientado a educadores/as e instituciones educativas de cual
 
 ## ¿Cómo y qué contiene este sitio?
 
-Proponemos que cada educador, o institución educativa, cuente con un dispositivo autónomo para la publicación de sus planes de enseñanza y que el dispositivo mismo sea una plataforma que permita aprender algunas cuestiones técnicas en el en el proceso de hacer y compartir planes, experiencias y reflexiones. Este dispositivo es, tanto una plataforma para escribir los planes de enseñanza, como un curso para aprender a usar herramientas para el desarrollo de páginas livianas y de producción colaborativa.
+Proponemos que cada educador, o institución educativa, cuente con un dispositivo autónomo para la publicación de sus planes de enseñanza y que el dispositivo mismo sea una plataforma que permita aprender algunas cuestiones técnicas en el proceso de hacer y compartir planes, experiencias y reflexiones.
+Este dispositivo es, tanto una plataforma para escribir los planes de enseñanza, como un curso para aprender a usar herramientas para el desarrollo de páginas livianas y de producción colaborativa.
 
 Esta es una plataforma que contiene:
 
@@ -31,11 +32,6 @@ Será luego cuestion de cada participante tomar una o varias de las vertientes d
 
 ## Bueno, ¿Cómo empiezo a armar mi plataforma?
 
-Les recomendamos que comiencen revisando cómo está organizada la plataforma [haciendo click acá]({{sitebaseurl}}/modules/inicio/formato-basico/).
+Les recomendamos que comiencen revisando cómo está organizada la plataforma [haciendo click acá]({{site.baseurl}}/modules/inicio/formato-basico).
 
-O bien pueden ir directamente a las instrucciones para construir la plataforma [haciendo click acá.]({{site.baseurl}}/modules/inicio/el-kit-de-construccion/)
-
-
-![Image of maze with starting point indicated]({{site.baseurl}}/img/start.jpg)
-
-Image [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) de [mikecogh](https://www.flickr.com/photos/mikecogh/11300349426) en [Flickr](https://flickr.com).
+O bien pueden ir directamente a las instrucciones para construir la plataforma [haciendo click acá.]({{site.baseurl}}/modules/tutorial/start)

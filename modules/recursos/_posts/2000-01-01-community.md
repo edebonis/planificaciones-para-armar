@@ -1,7 +1,7 @@
 ---
 title: Community
 excerpt: "Find out why community is important in learning something new, what makes robust communities tick, and start co-designing your course."
-published: true
+published: false
 ---
 
 # Community: the Dynamics of Generating Awesome
@@ -42,7 +42,7 @@ In this part of the course, we’ll talk about “social presence” (or communi
 
 Let's ask around:
 
-Scholar and writer Clay Shirky, in describing [how the open source community Perl works](https://www.youtube.com/watch?v=Xe1TZaElTAs) described his litmus test: 
+Scholar and writer Clay Shirky, in describing [how the open source community Perl works](https://www.youtube.com/watch?v=Xe1TZaElTAs) described his litmus test:
 
 ![shirky community.png]({{ site.baseurl }}/img/shirky%20community.png)
 
@@ -50,30 +50,30 @@ Communities also provide a sense of interconnectedness. Community designer Alex 
 
 ![hillman community.png]({{ site.baseurl }}/img/hillman%20community.png)
 
-At P2PU, we describe community as a combination of the above. For us, community is a sense of *shared purpose and belonging*. 
+At P2PU, we describe community as a combination of the above. For us, community is a sense of *shared purpose and belonging*.
 
 ![P2PU community.png]({{ site.baseurl }}/img/P2PU%20community.png)
 
-Think about your local PTA, block party organization, church, book club or alumni association. You participate for a reason, and when you're there, you have a sense that you’re included. 
+Think about your local PTA, block party organization, church, book club or alumni association. You participate for a reason, and when you're there, you have a sense that you’re included.
 
-As a course facilitator, you are designing a learning community. Peer-to-peer learning is a network of people helping each other. Once you have your learning goals established, the next series of ideas to think about is how to build a community around those goals. 
+As a course facilitator, you are designing a learning community. Peer-to-peer learning is a network of people helping each other. Once you have your learning goals established, the next series of ideas to think about is how to build a community around those goals.
 
 ## How Do I Design a Community?
 Good question. In order to design a stellar learning community, you'll need to think through a few questions. In your course, how will you:
 
 ### Ask learners to participate?
-Often at P2PU learners and facilitators design the course together. We've already mentioned collaborative goal-setting, and asking for input or feedback on the course design is a great first step. 
+Often at P2PU learners and facilitators design the course together. We've already mentioned collaborative goal-setting, and asking for input or feedback on the course design is a great first step.
 
 ### Welcome new members to the community?
-We like to ask folks to introduce themselves on [community.p2pu.org](http://community.p2pu.org/t/please-introduce-yourself/28). We build social presence by asking people a bit about their personality and their background: 
+We like to ask folks to introduce themselves on [community.p2pu.org](http://community.p2pu.org/t/please-introduce-yourself/28). We build social presence by asking people a bit about their personality and their background:
 
 ![Image of discourse forum]({{site.baseurl}}/img/discourse.png)
 
 ### Celebrate successes?
-Each community has their own rituals to recognize success (think about work anniversaries, juried art shows, ribbon-cutting ceremonies, etc.) These activities build a shared sense of quality in a community--they provide models for what is imporant, what individual members should strive to produce, what good collaborations might look like. Thinking about what you value and measure is important in community design. 
+Each community has their own rituals to recognize success (think about work anniversaries, juried art shows, ribbon-cutting ceremonies, etc.) These activities build a shared sense of quality in a community--they provide models for what is imporant, what individual members should strive to produce, what good collaborations might look like. Thinking about what you value and measure is important in community design.
 
 
-# Some examples: 
+# Some examples:
 
 ## P2PU School of Ed.
 In 2011, [Karen Fasimpaur](https://twitter.com/kfasimpaur) was looking to experiment with teacher professional development. She wanted to focus on  inquiry, self-direction, critical thinking, and collaboration with continuing education that was relevant to the lives of teachers. What came out of her curiosity was the P2PU School of Ed. 30 courses on the [p2pu.org](https://p2pu.org/en/) platform and two years later, she recommends the following design principles:
@@ -91,7 +91,7 @@ In 2013, P2PU and [Open Knowledge](http://us.okfn.org/) teamed up to offer a [�
 - *Spontaneous prompts to check in*: Members sent short messages to each other to keep the course alive, i.e. “Are you doing alright? Haven’t heard from you in ages” “Just making some noise.”
 - *Familiarity*: Members referred to each other by name (as opposed to simply “Team 10″) and shared bits of contextual information about their lives, such as when they found time to do the assignments, where they were traveling, etc.
 - *Building upon shared interest*: Team 10 shared content related to the subject matter of the course that others might find interesting–such as other Data MOOCs, open data released by the White House, etc.
-- *Tried new tools together*: Members tried out new tools like Google Fusion Tables together, and shared their frustrations, setbacks and successes. 
+- *Tried new tools together*: Members tried out new tools like Google Fusion Tables together, and shared their frustrations, setbacks and successes.
 - *Summaries of Hangouts*: In a brilliant move, members sent a summary of the synchronous Hangout to the whole group, which kept the folks who couldn’t make it in the loop.
 
 See the full recap at [Data MOOC: Results, Findings and Recommendations](http://info.p2pu.org/2013/06/18/data-mooc-results-findings-and-recommendations/)
@@ -102,9 +102,9 @@ See the full recap at [Data MOOC: Results, Findings and Recommendations](http://
 
 <script async class="speakerdeck-embed" data-id="ee0c521029ab0132958f166834114127" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-For a presentation at the Interactive Telecommunications Program at NYU, we asked the students: 
+For a presentation at the Interactive Telecommunications Program at NYU, we asked the students:
 
-- How do you learn best? 
+- How do you learn best?
 - Describe a time you learned something new.
 
 From there we look at ways to build technologies that reflect how we learn best--via learning projects and helping each other.
