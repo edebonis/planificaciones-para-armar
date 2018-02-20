@@ -25,9 +25,9 @@ Esta es la estructura de planificación online que voy a mantener este año. En 
 Planifico en una estructura de capas, cada capa es un módulo del sito, algunos módulos son más *estáticos* es decir, tienen pocas
 actualizaciones y otros son módulos tienen una vida más *dinámica* que serán actualizados periodicamente.
 - Las notas: son el núcleo de la planificación. Es el lugar donde se generan las reflexiones diarias y se plantean las modificaciones de lo planeado. Cada mes realizo una revisión de la marcha de los contenidos y la marcha de los proyectos a partir de lo recolectado en las notas.
--  Los cronogramas me permiten mantener un rumbo, una vez por semana armo el cronograma de la semana siguiente. Estos cronogramas son siempre tentativos y se van modificando en la marcha. Pero en general, el cronograma de hoy muestra las modificaciones del de ayer.
-- Los Proyectos y Secuencias contienen el desarrollo formal de las propuestas para el aula
-- El módulo contenidos contiene la planificación anual. Esa especie de proyeccción destinada a poner un horizonte lejano y cambiante.
+-  Los cronogramas: me permiten mantener un rumbo, una vez por semana armo el cronograma de la semana siguiente. Estos cronogramas son siempre tentativos y se van modificando en la marcha. Pero en general, el cronograma de hoy muestra las modificaciones del de ayer.
+- Los Proyectos y Secuencias: contienen el desarrollo formal de las propuestas para el aula
+- El módulo contenidos: contiene la planificación anual. Esa especie de proyeccción destinada a poner un horizonte lejano y cambiante.
 - En el aula mantengo una carpeta (bien analógica) con las secciones estáticas e impresiones de los cronográmas, secuencias y proyectos.
 
 Boceto de las planificaciones:

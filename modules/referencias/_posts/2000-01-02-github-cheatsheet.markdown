@@ -1,10 +1,10 @@
 ---
-title: GitHub Cheatsheet
+title: Machete para GitHub
 ---
 
-# Github cheatsheet
+# Machete para Github
 
-This cheatsheet explains how to do various things in GitHub. If you're looking for explanations of what some of the terms we use mean, have a look at the [GitHub Glossary](https://help.github.com/articles/github-glossary) 
+This cheatsheet explains how to do various things in GitHub. If you're looking for explanations of what some of the terms we use mean, have a look at the [GitHub Glossary](https://help.github.com/articles/github-glossary)
 
 ## How to fork a repository
 To fork a repository, go to the repository you would like to fork.  Ex. "https://github.com/yourusername/repositoryname/"
@@ -64,21 +64,21 @@ If you haven't made any updates to your repository it will tell you there is not
  ![]({{site.baseurl}}/img/tools/github-upstream-step-2.png)
 
 Change the base fork to your repository
- 
+
   ![]({{site.baseurl}}/img/tools/github-upstream-step-2-1.png)
- 
+
 It will tell you that there isn't anything to compare (Which is true! You are comparing your respository to itself!).
- 
+
 Click 'Edit' again and click 'compare across forks.'
- 
-  ![]({{site.baseurl}}/img/tools/github-upstream-step-2-2.png) 
- 
+
+  ![]({{site.baseurl}}/img/tools/github-upstream-step-2-2.png)
+
 Change the head fork to main respository (p2pu in this case).
 
   ![]({{site.baseurl}}/img/tools/github-upstream-step-2-3.png)
 
 Click 'Create pull request.'
- 
+
  ![]({{site.baseurl}}/img/tools/github-upstream-step-3.png)
 
 Fill out your merge request that will be submitted to yourself.
@@ -94,7 +94,7 @@ Click 'Confirm merge.'
  ![]({{site.baseurl}}/img/tools/github-upstream-step-6.png)
 
 That's it!  
- 
+
 ### Through Git
 > Note: This can only be done using git directly and cannot be done through the GitHub website
 
