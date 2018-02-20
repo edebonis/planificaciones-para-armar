@@ -17,7 +17,7 @@ Este proyecto está orientado a educadores/as e instituciones educativas de cual
 - Evidenciar las reflexiones y modificaciones de los planes a partir de la práctica educativa.
 - Construir y participar de comunidad de profesionales de la educación.
 
-## Prpuesta
+## Propuesta
 
 Proponemos que cada educador, o institución educativa, cuente con un dispositivo autónomo para la publicación de sus planes de enseñanza y que el dispositivo mismo sea una plataforma que permita aprender algunas cuestiones técnicas en el proceso de hacer y compartir planes, experiencias y reflexiones.
 Este dispositivo es, tanto una plataforma para escribir los planes de enseñanza, como un curso para aprender a usar herramientas para el desarrollo de páginas livianas y de producción colaborativa.
