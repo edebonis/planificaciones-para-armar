@@ -6,7 +6,7 @@ published: true
 
 ## Crear tus planes de clase online (y mantenerlos)
 
-Planificaciones para armar es una herramienta simple, abierta para ayudarles a crear su planiificación o planes de clase y que se mantengan online en la web, está diseñada para minimizar el tiempo usado en lidiar con la tecnología, permitiendo enfocarnos en publicar los recursos, secuencias, actividades y proyectos que quieran compartir con el mundo.
+Planificaciones para armar es una herramienta simple, abierta para ayudarles a crear su planificación o planes de clase y que se mantengan online en la web, está diseñada para minimizar el tiempo usado en lidiar con la tecnología, permitiendo enfocarnos en publicar los recursos, secuencias, actividades y proyectos que quieran compartir con el mundo.
 
 Por defecto, sus planes y proyectos van a estar hospedados en [Github](https://github.com), una plataforma de desarrollo muy popular que les permite tener borradores colaborativos, control de versiones y una sencilla distribución del contenido. Lo mejor de todo, hospedar el sitio en Github es ¡**gratis**!
 
