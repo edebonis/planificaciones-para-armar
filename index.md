@@ -4,7 +4,7 @@ published: true
 ---
 
 
-## Crear tus planes de clase online (y mantenerlas)
+## Crear tus planes de clase online (y mantenerlos)
 
 Planificaciones para armar es una herramienta simple, abierta para ayudarles a crear su planiificación o planes de clase y que se mantengan online en la web, está diseñada para minimizar el tiempo usado en lidiar con la tecnología, permitiendo enfocarnos en publicar los recursos, secuencias, actividades y proyectos que quieran compartir con el mundo.
 
