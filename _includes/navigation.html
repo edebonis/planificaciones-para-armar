@@ -14,7 +14,6 @@
 			<ul class="nav navbar-nav">
 				<li>
 					<a href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
-					<a href="{{ site.baseurl }}/"><img src="{{site.baseurl}}img/logoGithub.png"></a>
 				</li>
 				{% for module in site.data.course.modules %}
 					{% assign first_post = site.categories[module]|reverse|first %}
@@ -27,6 +26,8 @@
 				{% endfor %}
 				<li>
 					<a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/issues" target="_blank">Discusiones</a>
+					<a href="https://github.com/acercadelaeducacion/planificaciones-para-armar"><img src="{{site.baseurl}}img/logoGithub.png"></a>
+
 				</li>
 			</ul>
       {% if site.github.owner_name == 'p2pu' %}
