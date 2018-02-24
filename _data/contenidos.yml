@@ -1,0 +1,13 @@
+- mes: Marzo
+  proyecto: Biblioteca del aula
+  modalidad: situacion habitual
+  duracion: 2 #Acá van los meses
+  meses: [Marzo, Abril]
+  description: Acá va mucho texto que quieran
+
+- mes: Abril
+  proyecto: Portfolio
+  modalidad: situacion habitual
+  duracion: 5 #Acá van los meses
+  meses: [Mayo]
+  description: Acá va mucho mas texto que quieran

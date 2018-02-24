@@ -1,0 +1,332 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
+	<meta charset="utf-8">
+	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
+
+	<title>Planificaciones para armar | prueba de d3</title>
+  <meta name="description" content="Construir tu planificación en la web">
+  <meta name="author" content="">
+
+  <meta property="og:title" content="Planificaciones para armar" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" href="/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+
+	<link rel="stylesheet" href="/css/p2pustrap-custom.css" />
+	<link rel="stylesheet" href="/css/site.css" />
+  
+
+	<link rel="shortcut icon" href="/img/favicon.ico">
+	<script type="text/javascript" src="/js/modernizr-2.6.2.min.js"></script>
+</head>
+<body 
+      class="">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default" role="navigation">
+
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<a href="#" class="navbar-toggle" data-toggle="collapse" data-target="#p2pu-menu">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="container">
+		<div class="collapse navbar-collapse" id="p2pu-menu">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="/"><i class="fa fa-home"></i></a>
+				</li>
+				
+					
+					<li class="dropdown  first ">
+						<a href="/modules/tutorial/propuesta-y-objetivos/"
+						   class="dropdown-item">
+							tutorial
+						</a>
+					</li>
+				
+					
+					<li class="dropdown active  ">
+						<a href="/modules/contenidos/practicas-del-lenguaje/"
+						   class="dropdown-item">
+							contenidos
+						</a>
+					</li>
+				
+					
+					<li class="dropdown   ">
+						<a href=""
+						   class="dropdown-item">
+							proyectos
+						</a>
+					</li>
+				
+					
+					<li class="dropdown   ">
+						<a href=""
+						   class="dropdown-item">
+							cronogramas
+						</a>
+					</li>
+				
+					
+					<li class="dropdown   ">
+						<a href=""
+						   class="dropdown-item">
+							notas
+						</a>
+					</li>
+				
+					
+					<li class="dropdown   last">
+						<a href="/modules/referencias/introduction/"
+						   class="dropdown-item">
+							referencias
+						</a>
+					</li>
+				
+				<li>
+					<a href="https://github.com/acercadelaeducacion/planificaciones-para-armar/issues" target="_blank">Discusiones</a>
+				</li>
+				<li>
+					<a href="https://github.com/acercadelaeducacion/planificaciones-para-armar" target="_blank"><img src="/img/logoGithub.png"></a>
+				</li>
+
+
+			</ul>
+      
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
+<!-- End Navigation -->
+
+
+
+<div class="clearfix">
+	<div class="sidebar col-md-3">
+	
+
+
+
+
+
+
+
+	
+		<div class="pagination-section">
+			<div class="title">
+				Previous module:
+			</div>
+			<a rel="prev" class="prev" href="/modules/tutorial/propuesta-y-objetivos/">
+				tutorial </a>
+		</div>
+		<hr />
+	
+	<ul>
+		
+			<li class=" first ">
+				<a
+						href="/modules/contenidos/practicas-del-lenguaje/">
+					Prácticas del Lenguaje
+				</a>
+			</li>
+		
+			<li class="active  last">
+				<a
+						href="/modules/contenidos/prueba-de-d3/">
+					prueba de d3
+				</a>
+			</li>
+		
+	</ul>
+	
+		<hr />
+		<div class="pagination-section">
+			<div class="title">
+				Next module:
+			</div>
+			<a rel="next" class="next" href=""> proyectos
+			</a>
+		</div>
+	
+</div>
+	<div class="col-md-9 background-white">
+		<div class="col-md-8 col-md-offset-1">
+			<div class="row">
+				<div class="content col-lg-12">
+					<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+
+var width = 960,
+    height = 136,
+    cellSize = 17;
+
+var formatPercent = d3.format(".1%");
+
+var color = d3.scaleQuantize()
+    .domain([-0.05, 0.05])
+    .range(["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]);
+
+var svg = d3.select("body")
+  .selectAll("svg")
+  .data(d3.range(1990, 2011))
+  .enter().append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," + (height - cellSize * 7 - 1) + ")");
+
+svg.append("text")
+    .attr("transform", "translate(-6," + cellSize * 3.5 + ")rotate(-90)")
+    .attr("font-family", "sans-serif")
+    .attr("font-size", 10)
+    .attr("text-anchor", "middle")
+    .text(function(d) { return d; });
+
+var rect = svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#ccc")
+  .selectAll("rect")
+  .data(function(d) { return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("rect")
+    .attr("width", cellSize)
+    .attr("height", cellSize)
+    .attr("x", function(d) { return d3.timeWeek.count(d3.timeYear(d), d) * cellSize; })
+    .attr("y", function(d) { return d.getDay() * cellSize; })
+    .datum(d3.timeFormat("%Y-%m-%d"));
+
+svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#000")
+  .selectAll("path")
+  .data(function(d) { return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1)); })
+  .enter().append("path")
+    .attr("d", pathMonth);
+
+d3.csv("dji.csv", function(error, csv) {
+  if (error) throw error;
+
+  var data = d3.nest()
+      .key(function(d) { return d.Date; })
+      .rollup(function(d) { return (d[0].Close - d[0].Open) / d[0].Open; })
+    .object(csv);
+
+  rect.filter(function(d) { return d in data; })
+      .attr("fill", function(d) { return color(data[d]); })
+    .append("title")
+      .text(function(d) { return d + ": " + formatPercent(data[d]); });
+});
+
+function pathMonth(t0) {
+  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
+      d0 = t0.getDay(), w0 = d3.timeWeek.count(d3.timeYear(t0), t0),
+      d1 = t1.getDay(), w1 = d3.timeWeek.count(d3.timeYear(t1), t1);
+  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
+      + "H" + w0 * cellSize + "V" + 7 * cellSize
+      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
+      + "H" + (w1 + 1) * cellSize + "V" + 0
+      + "H" + (w0 + 1) * cellSize + "Z";
+}
+
+</script>
+
+
+					
+
+
+
+
+
+					
+						<hr />
+					
+					
+						<div class="pagination-section pull-left">
+							<div class="title">
+								Sección previa:
+							</div>
+							<a rel="prev" class="prev" href="/modules/contenidos/practicas-del-lenguaje/">
+								Prácticas del Lenguaje </a>
+						</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<footer class="p2pu-footer">
+	<div class="container">
+		<div class="col-md-12 cc-by-sa">
+			<img src="/img/cc-icons.png" alt="CC-BY-SA Icon">
+			<p>
+				Unless otherwise noted, all the materials on this site are licensed under a
+				<a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">
+					Creative Commons Attribution Share Alike 4.0</a> Unported license.
+			</p>
+		</div>
+	</div>
+</footer>
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+  window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')
+</script>
+
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="/js/init.js"></script>
+<script src="/js/gh_link_helper.js"></script>
+
+
+
+<script>
+	P2PU.ciab.init();
+</script>
+
+<!-- Google Analytics -->
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  
+    ga('create', 'UA-5757664-19', 'auto');
+  
+  
+    ga('create', 'UA-55722824-1', 'auto', {'name': 'p2puTracker'} );
+  
+  
+    ga('send', 'pageview');
+  
+  
+    ga('p2puTracker.send', 'pageview');
+  
+</script>
+
+
+
+</body>
+</html>
